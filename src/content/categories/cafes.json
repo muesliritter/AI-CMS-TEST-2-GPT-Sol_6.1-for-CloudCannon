@@ -244,6 +244,18 @@
           "credit": "Förster Max · www.foerstermax.de",
           "rights_status": "unverified",
           "publish": true
+        },
+        {
+          "image": "/images/places/eis-foerster-max-freiburg.jpg",
+          "alt": {
+            "en": "",
+            "de": ""
+          },
+          "kind": "other",
+          "source_url": "https://www.google.com/url?sa=t&source=web&rct=j&url=https%3A%2F%2Fwww.zimtblume.de%2Ffoerster-max-freiburg%2F&ved=0CAQQjB1qGAoTCOiapZCp55cDFQAAAAAdAAAAABDtAQ&opi=89978449",
+          "credit": "Zimtblume",
+          "rights_status": "unverified",
+          "publish": true
         }
       ],
       "placeholder": false
@@ -1304,18 +1316,6 @@
           "kind": "interior",
           "source_url": "https://www.kienfreiburg.de/",
           "credit": "Café KIEN · Christoph Düpper (laut Dateiname)",
-          "rights_status": "unverified",
-          "publish": true
-        },
-        {
-          "image": "/images/places/kien-4.webp",
-          "alt": {
-            "en": "Food at Café KIEN",
-            "de": "Essen im Café KIEN"
-          },
-          "kind": "food",
-          "source_url": "https://www.kienfreiburg.de/",
-          "credit": "Café KIEN · www.kienfreiburg.de",
           "rights_status": "unverified",
           "publish": true
         },
