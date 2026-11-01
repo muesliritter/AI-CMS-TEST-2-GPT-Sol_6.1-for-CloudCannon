@@ -184,18 +184,6 @@
       "maps": "https://www.google.com/maps/search/?api=1&query=Zeit+fuer+Brot+Eisenstrasse+2+Freiburg",
       "gallery": [
         {
-          "image": "/images/places/zeit-fuer-brot-1.webp",
-          "alt": {
-            "en": "Zeit für Brot, Eisenstraße, Freiburg",
-            "de": "Zeit für Brot, Eisenstraße, Freiburg"
-          },
-          "kind": "exterior",
-          "source_url": "https://zeitfuerbrot.com/baeckereien",
-          "credit": "Zeit für Brot · zeitfuerbrot.com",
-          "rights_status": "unverified",
-          "publish": true
-        },
-        {
           "image": "/images/places/zeit-fuer-brot-2.webp",
           "alt": {
             "en": "Inside Zeit für Brot Freiburg",
@@ -208,12 +196,24 @@
           "publish": true
         },
         {
-          "image": "/images/places/zeit-fuer-brot-3.webp",
+          "image": "/images/places/zeit-fuer-brot-hamburg-1-jpg.webp",
           "alt": {
-            "en": "Window seats at Zeit für Brot Freiburg",
-            "de": "Fensterplätze bei Zeit für Brot Freiburg"
+            "en": "Cinnamon Buns",
+            "de": "Zimtschnecken"
           },
-          "kind": "interior",
+          "kind": "other",
+          "source_url": "",
+          "credit": "",
+          "rights_status": "unverified",
+          "publish": true
+        },
+        {
+          "image": "/images/places/zeit-fuer-brot-1.webp",
+          "alt": {
+            "en": "Zeit für Brot, Eisenstraße, Freiburg",
+            "de": "Zeit für Brot, Eisenstraße, Freiburg"
+          },
+          "kind": "exterior",
           "source_url": "https://zeitfuerbrot.com/baeckereien",
           "credit": "Zeit für Brot · zeitfuerbrot.com",
           "rights_status": "unverified",
