@@ -1,0 +1,34 @@
+{
+  "slug": "new-category",
+  "nav_title": {
+    "en": "New chapter",
+    "de": "Neues Kapitel"
+  },
+  "title": {
+    "en": "A new little chapter.",
+    "de": "Ein neues kleines Kapitel."
+  },
+  "intro": {
+    "en": "A collection of new discoveries.",
+    "de": "Eine Sammlung neuer Entdeckungen."
+  },
+  "eyebrow": {
+    "en": "The little black book",
+    "de": "Das kleine Lieblingsbuch"
+  },
+  "status": "coming-soon",
+  "order": 5,
+  "rating_criteria": [
+    {
+      "id": "experience",
+      "label": {
+        "en": "Experience",
+        "de": "Erlebnis"
+      },
+      "kind": "text",
+      "maximum": 5
+    }
+  ],
+  "tags": [],
+  "sections": []
+}
