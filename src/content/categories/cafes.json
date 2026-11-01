@@ -322,18 +322,6 @@
       "maps": "https://www.google.com/maps/search/?api=1&query=Scheinpflug+Kirchstrasse+48+Freiburg",
       "gallery": [
         {
-          "image": "/images/places/scheinpflug-7.webp",
-          "alt": {
-            "en": "Inside Der Scheinpflug",
-            "de": "Innenraum von Der Scheinpflug"
-          },
-          "kind": "interior",
-          "source_url": "https://www.schwarzwald-tourismus.info/attraktionen/scheinpflug-feines-eis-5a4d05589a",
-          "credit": "Der Scheinpflug · www.schwarzwald-tourismus.info",
-          "rights_status": "unverified",
-          "publish": true
-        },
-        {
           "image": "/images/places/scr-20261101-qyqo.jpeg",
           "alt": {
             "en": "",
@@ -342,6 +330,18 @@
           "kind": "other",
           "source_url": "",
           "credit": "",
+          "rights_status": "unverified",
+          "publish": true
+        },
+        {
+          "image": "/images/places/scheinpflug-7.webp",
+          "alt": {
+            "en": "Inside Der Scheinpflug",
+            "de": "Innenraum von Der Scheinpflug"
+          },
+          "kind": "interior",
+          "source_url": "https://www.schwarzwald-tourismus.info/attraktionen/scheinpflug-feines-eis-5a4d05589a",
+          "credit": "Der Scheinpflug · www.schwarzwald-tourismus.info",
           "rights_status": "unverified",
           "publish": true
         },

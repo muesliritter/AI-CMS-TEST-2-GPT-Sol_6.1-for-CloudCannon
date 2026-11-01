@@ -116,34 +116,34 @@
       "maps": "https://www.google.com/maps/search/?api=1&query=Brotbruder+Zasiusstrasse+9+Freiburg",
       "gallery": [
         {
+          "image": "/images/places/scr-20261101-somn.jpeg",
+          "alt": {
+            "en": "",
+            "de": ""
+          },
+          "kind": "other",
+          "source_url": "https://www.instagram.com/brotbruder_fr/",
+          "credit": "",
+          "rights_status": "unverified",
+          "publish": true
+        },
+        {
+          "image": "/images/places/scr-20261101-sndr.jpeg",
+          "alt": {
+            "en": "",
+            "de": ""
+          },
+          "kind": "other",
+          "source_url": "https://www.instagram.com/p/C6EOYHZIPOR/",
+          "credit": "",
+          "rights_status": "unverified",
+          "publish": true
+        },
+        {
           "image": "/images/places/brotbruder-1.webp",
           "alt": {
             "en": "Breadmaking at Brotbruder",
             "de": "Brotbacken bei Brotbruder"
-          },
-          "kind": "interior",
-          "source_url": "https://blendwerk-freiburg.de/2024/02/05/fotos-fuer-handwerk-magazin-brotbruder-freiburg/",
-          "credit": "Blendwerk Freiburg · Fotografenquelle; Freigabe ausstehend",
-          "rights_status": "unverified",
-          "publish": true
-        },
-        {
-          "image": "/images/places/brotbruder-2.webp",
-          "alt": {
-            "en": "Inside the Brotbruder bakery",
-            "de": "In der Backstube von Brotbruder"
-          },
-          "kind": "interior",
-          "source_url": "https://blendwerk-freiburg.de/2024/02/05/fotos-fuer-handwerk-magazin-brotbruder-freiburg/",
-          "credit": "Blendwerk Freiburg · Fotografenquelle; Freigabe ausstehend",
-          "rights_status": "unverified",
-          "publish": true
-        },
-        {
-          "image": "/images/places/brotbruder-3.webp",
-          "alt": {
-            "en": "Bakers at work at Brotbruder",
-            "de": "Bäcker bei der Arbeit bei Brotbruder"
           },
           "kind": "interior",
           "source_url": "https://blendwerk-freiburg.de/2024/02/05/fotos-fuer-handwerk-magazin-brotbruder-freiburg/",
