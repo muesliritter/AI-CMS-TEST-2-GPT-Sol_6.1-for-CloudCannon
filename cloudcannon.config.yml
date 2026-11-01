@@ -1,0 +1,261 @@
+source: /
+paths:
+  static: public
+  uploads: public/images/places
+collections_config:
+  categories:
+    path: src/content/categories
+    glob:
+      - '*.json'
+    name: Chapters & places
+    icon: local_cafe
+    url: /{slug}/
+    _enabled_editors:
+      - data
+    preview:
+      text:
+        - key: nav_title.en
+      subtext:
+        - key: status
+    schemas:
+      default:
+        name: New category
+        path: .cloudcannon/schemas/category.json
+        remove_extra_inputs: false
+    add_options:
+      - name: Add category
+        schema: default
+        icon: add_circle
+  settings:
+    path: src/guide
+    glob:
+      - settings.json
+    name: Site settings
+    icon: settings
+    disable_url: true
+    _enabled_editors:
+      - data
+collection_groups:
+  - heading: Freiburg for Marlene
+    collections:
+      - categories
+      - settings
+_inputs:
+  slug:
+    type: text
+    comment: >-
+      Unique route, lowercase letters, numbers and hyphens. Use a new filename AND a unique slug when adding a
+      category.
+  en:
+    type: textarea
+    label: English
+  de:
+    type: textarea
+    label: Deutsch
+  status:
+    type: select
+    options:
+      values:
+        - active
+        - coming-soon
+  order:
+    type: number
+    comment: Navigation order, lowest first.
+  nav_title:
+    type: object
+    label: Navigation title · EN / DE
+  title:
+    type: object
+    label: Page heading · EN / DE
+  intro:
+    type: object
+    label: Introduction · EN / DE
+  sections:
+    type: array
+    label: Places / sections
+    comment: Add, reorder or remove individual places. Each contains both languages and its own gallery.
+    options:
+      structures: _structures.places
+  rating_criteria:
+    type: array
+    label: Category rating scheme
+    comment: >-
+      Labels, type and maximum shared by every place in this category. IDs must match ratings. Unrated scores
+      remain blank.
+    options:
+      structures: _structures.criteria
+  tags:
+    type: array
+    label: Category tags
+    comment: Create a stable ID and translated labels. Assign these IDs to the individual places.
+    options:
+      structures: _structures.tagDefinitions
+  sections[*].tags:
+    type: array
+    label: Assigned tag IDs
+    comment: Use IDs defined under Category tags above. Multiple tags combine with AND in the public filter.
+  sections[*].tags[*]:
+    type: text
+    label: Tag ID
+  ratings:
+    type: array
+    label: Ratings / observations
+    comment: Match criterion to an ID from the category rating scheme. Leave score empty when not rated.
+    options:
+      structures: _structures.ratings
+  gallery:
+    type: array
+    label: Photo gallery
+    comment: 'Order: exterior, interior, then coffee / food where available. First image is the main image.'
+    options:
+      structures: _structures.photos
+  image:
+    type: image
+    options:
+      paths:
+        uploads: public/images/places
+  source_url:
+    type: url
+    label: Source page
+  website:
+    type: url
+  maps:
+    type: url
+  score:
+    type: number
+    comment: Personal score. Blank means not rated. Maximum is set at category level.
+  maximum:
+    type: number
+  criterion:
+    type: text
+    comment: ID from this category’s rating scheme.
+  kind:
+    type: select
+    options:
+      values:
+        - text
+        - score
+  placeholder:
+    type: switch
+    label: Example / placeholder entry
+  publish:
+    type: switch
+    label: Show photo
+  rights_status:
+    type: select
+    label: Image rights
+    options:
+      values:
+        - unverified
+        - cleared
+        - owned
+  credit:
+    type: text
+    label: Photographer / source credit
+  site_url:
+    type: url
+    comment: Set to your live HTTPS domain for canonical and EN/DE alternate links. No trailing slash.
+  name:
+    type: text
+  _component:
+    type: text
+    hidden: true
+  hero_image:
+    type: image
+    label: Homepage main image
+    options:
+      paths:
+        uploads: public/images/places
+_structures:
+  places:
+    id_key: _component
+    values:
+      - label: Place · EN / DE
+        icon: place
+        value:
+          _component: guide/place
+          id: new-place
+          name: New favourite
+          quarter:
+            en: ''
+            de: ''
+          specialty:
+            en: ''
+            de: ''
+          tags: []
+          ratings: []
+          website: ''
+          maps: ''
+          gallery: []
+          placeholder: false
+        preview:
+          text:
+            - key: name
+          subtext:
+            - key: quarter.en
+          image:
+            - key: gallery.0.image
+  criteria:
+    values:
+      - label: Rating criterion
+        value:
+          id: experience
+          label:
+            en: Experience
+            de: Erlebnis
+          kind: text
+          maximum: 5
+  ratings:
+    values:
+      - label: Rating / note
+        value:
+          criterion: ''
+          score: null
+          text:
+            en: ''
+            de: ''
+        preview:
+          text:
+            - key: criterion
+  tagDefinitions:
+    values:
+      - label: Tag
+        value:
+          id: new-tag
+          label:
+            en: New tag
+            de: Neuer Tag
+        preview:
+          text:
+            - key: label.en
+          subtext:
+            - key: id
+  photos:
+    values:
+      - label: Photo
+        value:
+          image: ''
+          alt:
+            en: ''
+            de: ''
+          kind: other
+          source_url: ''
+          credit: ''
+          rights_status: unverified
+          publish: true
+        _inputs:
+          kind:
+            type: select
+            options:
+              values:
+                - exterior
+                - interior
+                - coffee
+                - food
+                - garden
+                - other
+        preview:
+          text:
+            - key: alt.en
+          image:
+            - key: image

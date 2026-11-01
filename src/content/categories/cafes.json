@@ -1,0 +1,1597 @@
+{
+  "slug": "cafes",
+  "title": {
+    "en": "Coffee, cake & a little pause.",
+    "de": "Kaffee, Kuchen & eine kleine Pause."
+  },
+  "intro": {
+    "en": "Thirteen places worth slowing down for. From a tiny espresso bar to a hidden garden — find your kind of coffee break.",
+    "de": "Dreizehn Orte zum Entschleunigen. Von der kleinen Espressobar bis zum versteckten Garten – finde deine liebste Kaffeepause."
+  },
+  "eyebrow": {
+    "en": "The little black book",
+    "de": "Das kleine Lieblingsbuch"
+  },
+  "status": "active",
+  "order": 0,
+  "rating_criteria": [
+    {
+      "id": "coffee",
+      "label": {
+        "en": "Coffee",
+        "de": "Kaffee"
+      },
+      "kind": "score",
+      "maximum": 5
+    },
+    {
+      "id": "food",
+      "label": {
+        "en": "Food",
+        "de": "Essen"
+      },
+      "kind": "text",
+      "maximum": 5
+    },
+    {
+      "id": "style",
+      "label": {
+        "en": "The feeling",
+        "de": "Der Stil"
+      },
+      "kind": "text",
+      "maximum": 5
+    },
+    {
+      "id": "inside",
+      "label": {
+        "en": "Inside",
+        "de": "Drinnen"
+      },
+      "kind": "text",
+      "maximum": 5
+    },
+    {
+      "id": "outside",
+      "label": {
+        "en": "Outside",
+        "de": "Draußen"
+      },
+      "kind": "text",
+      "maximum": 5
+    }
+  ],
+  "tags": [
+    {
+      "id": "ice-cream",
+      "label": {
+        "en": "Ice cream",
+        "de": "Eis"
+      }
+    },
+    {
+      "id": "terrace",
+      "label": {
+        "en": "Outside tables",
+        "de": "Draußen sitzen"
+      }
+    },
+    {
+      "id": "garden",
+      "label": {
+        "en": "Garden",
+        "de": "Garten"
+      }
+    },
+    {
+      "id": "cake",
+      "label": {
+        "en": "Cake",
+        "de": "Kuchen"
+      }
+    },
+    {
+      "id": "italian",
+      "label": {
+        "en": "Italian",
+        "de": "Italienisch"
+      }
+    },
+    {
+      "id": "french",
+      "label": {
+        "en": "French",
+        "de": "Französisch"
+      }
+    },
+    {
+      "id": "pastries",
+      "label": {
+        "en": "Pastries",
+        "de": "Gebäck"
+      }
+    },
+    {
+      "id": "specialty-coffee",
+      "label": {
+        "en": "Coffee first",
+        "de": "Kaffeeliebe"
+      }
+    },
+    {
+      "id": "work-friendly",
+      "label": {
+        "en": "Work nearby",
+        "de": "Arbeiten nebenan"
+      }
+    },
+    {
+      "id": "wine",
+      "label": {
+        "en": "Evening wine",
+        "de": "Abends Wein"
+      }
+    },
+    {
+      "id": "lunch",
+      "label": {
+        "en": "Lunch",
+        "de": "Mittagessen"
+      }
+    },
+    {
+      "id": "classic",
+      "label": {
+        "en": "Classic",
+        "de": "Klassisch"
+      }
+    },
+    {
+      "id": "retro",
+      "label": {
+        "en": "Retro",
+        "de": "Retro"
+      }
+    }
+  ],
+  "sections": [
+    {
+      "_component": "guide/place",
+      "id": "foerster-max",
+      "name": "Förster Max",
+      "quarter": {
+        "en": "Wiehre",
+        "de": "Wiehre"
+      },
+      "specialty": {
+        "en": "Best ice cream in town",
+        "de": "Das beste Eis der Stadt"
+      },
+      "tags": [
+        "ice-cream",
+        "terrace"
+      ],
+      "ratings": [
+        {
+          "criterion": "coffee",
+          "score": 4.7,
+          "text": {
+            "en": "",
+            "de": ""
+          }
+        },
+        {
+          "criterion": "food",
+          "score": null,
+          "text": {
+            "en": "Exquisite pastries and ice cream",
+            "de": "Exquisites Gebäck und Eis"
+          }
+        },
+        {
+          "criterion": "style",
+          "score": null,
+          "text": {
+            "en": "Retro & chic",
+            "de": "Retro und schick"
+          }
+        },
+        {
+          "criterion": "inside",
+          "score": null,
+          "text": {
+            "en": "Relaxed, if you can find a quiet corner",
+            "de": "Entspannt, wenn du eine ruhige Ecke findest"
+          }
+        },
+        {
+          "criterion": "outside",
+          "score": null,
+          "text": {
+            "en": "Lots of tables on a lovely terrace at a quiet street corner",
+            "de": "Viele Tische auf einer schönen Terrasse an einer ruhigen Straßenecke"
+          }
+        }
+      ],
+      "website": "https://www.foerstermax.de/",
+      "maps": "https://www.google.com/maps/search/?api=1&query=Foerster+Max+Dreikoenigstrasse+46+Freiburg",
+      "gallery": [
+        {
+          "image": "/images/places/foerster-max-2.webp",
+          "alt": {
+            "en": "Förster Max on the street corner",
+            "de": "Förster Max an der Straßenecke"
+          },
+          "kind": "exterior",
+          "source_url": "https://www.foerstermax.de/",
+          "credit": "Förster Max · www.foerstermax.de",
+          "rights_status": "unverified",
+          "publish": true
+        },
+        {
+          "image": "/images/places/foerster-max-1.webp",
+          "alt": {
+            "en": "Pastry at Förster Max",
+            "de": "Gebäck bei Förster Max"
+          },
+          "kind": "food",
+          "source_url": "https://www.foerstermax.de/",
+          "credit": "Förster Max · www.foerstermax.de",
+          "rights_status": "unverified",
+          "publish": true
+        }
+      ],
+      "placeholder": false
+    },
+    {
+      "_component": "guide/place",
+      "id": "scheinpflug",
+      "name": "Der Scheinpflug",
+      "quarter": {
+        "en": "Wiehre",
+        "de": "Wiehre"
+      },
+      "specialty": {
+        "en": "Best affogato in town",
+        "de": "Der beste Affogato der Stadt"
+      },
+      "tags": [
+        "ice-cream",
+        "terrace"
+      ],
+      "ratings": [
+        {
+          "criterion": "coffee",
+          "score": 4.9,
+          "text": {
+            "en": "",
+            "de": ""
+          }
+        },
+        {
+          "criterion": "food",
+          "score": null,
+          "text": {
+            "en": "Excellent pastries and ice cream",
+            "de": "Ausgezeichnetes Gebäck und Eis"
+          }
+        },
+        {
+          "criterion": "style",
+          "score": null,
+          "text": {
+            "en": "Elegant, artsy and modern, yet cosy",
+            "de": "Elegant, künstlerisch und modern, trotzdem gemütlich"
+          }
+        },
+        {
+          "criterion": "inside",
+          "score": null,
+          "text": {
+            "en": "Relaxed, if you find a quiet corner",
+            "de": "Entspannt, wenn du eine ruhige Ecke findest"
+          }
+        },
+        {
+          "criterion": "outside",
+          "score": null,
+          "text": {
+            "en": "By a church square and playground; popular with parents",
+            "de": "Am Kirchplatz mit Spielplatz; beliebt bei Eltern"
+          }
+        }
+      ],
+      "website": "https://scheinpflugeis.com/",
+      "maps": "https://www.google.com/maps/search/?api=1&query=Scheinpflug+Kirchstrasse+48+Freiburg",
+      "gallery": [
+        {
+          "image": "/images/places/scheinpflug-7.webp",
+          "alt": {
+            "en": "Inside Der Scheinpflug",
+            "de": "Innenraum von Der Scheinpflug"
+          },
+          "kind": "interior",
+          "source_url": "https://www.schwarzwald-tourismus.info/attraktionen/scheinpflug-feines-eis-5a4d05589a",
+          "credit": "Der Scheinpflug · www.schwarzwald-tourismus.info",
+          "rights_status": "unverified",
+          "publish": true
+        }
+      ],
+      "placeholder": false
+    },
+    {
+      "_component": "guide/place",
+      "id": "tibet-garten",
+      "name": "Tibet Garten Café",
+      "quarter": {
+        "en": "Old Town",
+        "de": "Altstadt"
+      },
+      "specialty": {
+        "en": "The garden",
+        "de": "Der Garten"
+      },
+      "tags": [
+        "garden",
+        "cake"
+      ],
+      "ratings": [
+        {
+          "criterion": "coffee",
+          "score": 4.0,
+          "text": {
+            "en": "",
+            "de": ""
+          }
+        },
+        {
+          "criterion": "food",
+          "score": null,
+          "text": {
+            "en": "Pretty good cakes",
+            "de": "Ziemlich gute Kuchen"
+          }
+        },
+        {
+          "criterion": "style",
+          "score": null,
+          "text": {
+            "en": "Buddhist",
+            "de": "Buddhistisch"
+          }
+        },
+        {
+          "criterion": "inside",
+          "score": null,
+          "text": {
+            "en": "Meditation only inside — no coffee",
+            "de": "Drinnen nur Meditation, kein Kaffee"
+          }
+        },
+        {
+          "criterion": "outside",
+          "score": null,
+          "text": {
+            "en": "A beautiful garden",
+            "de": "Ein wunderschöner Garten"
+          }
+        }
+      ],
+      "website": "https://www.tibet-kailash-haus.de/",
+      "maps": "https://www.google.com/maps/search/?api=1&query=Tibet+Kailash+Gartencafe+Wallstrasse+8+Freiburg",
+      "gallery": [
+        {
+          "image": "/images/places/tibet-garten-1.webp",
+          "alt": {
+            "en": "Prayer wheel in the Tibet Kailash garden",
+            "de": "Gebetsmühle im Garten des Tibet-Kailash-Hauses"
+          },
+          "kind": "garden",
+          "source_url": "https://www.tibet-kailash-haus.de/angebot",
+          "credit": "Tibet Garten Café · www.tibet-kailash-haus.de",
+          "rights_status": "unverified",
+          "publish": true
+        },
+        {
+          "image": "/images/places/tibet-garten-2.webp",
+          "alt": {
+            "en": "Buddha detail in the garden",
+            "de": "Buddha-Detail im Garten"
+          },
+          "kind": "garden",
+          "source_url": "https://www.tibet-kailash-haus.de/angebot",
+          "credit": "Tibet Garten Café · www.tibet-kailash-haus.de",
+          "rights_status": "unverified",
+          "publish": true
+        },
+        {
+          "image": "/images/places/tibet-garten-3.webp",
+          "alt": {
+            "en": "Buddha among the greenery",
+            "de": "Buddha im Grünen"
+          },
+          "kind": "garden",
+          "source_url": "https://www.tibet-kailash-haus.de/angebot",
+          "credit": "Tibet Garten Café · www.tibet-kailash-haus.de",
+          "rights_status": "unverified",
+          "publish": true
+        }
+      ],
+      "placeholder": false
+    },
+    {
+      "_component": "guide/place",
+      "id": "da-gianni",
+      "name": "Café Da Gianni",
+      "quarter": {
+        "en": "Old Town",
+        "de": "Altstadt"
+      },
+      "specialty": {
+        "en": "Everything is Italian",
+        "de": "Alles ist italienisch"
+      },
+      "tags": [
+        "italian",
+        "terrace"
+      ],
+      "ratings": [
+        {
+          "criterion": "coffee",
+          "score": 4.7,
+          "text": {
+            "en": "",
+            "de": ""
+          }
+        },
+        {
+          "criterion": "food",
+          "score": null,
+          "text": {
+            "en": "Fantastic Italian pastries",
+            "de": "Fantastisches italienisches Gebäck"
+          }
+        },
+        {
+          "criterion": "style",
+          "score": null,
+          "text": {
+            "en": "Well balanced and understated",
+            "de": "Ausgewogen und unaufdringlich"
+          }
+        },
+        {
+          "criterion": "inside",
+          "score": null,
+          "text": {
+            "en": "Cosy but very small",
+            "de": "Gemütlich, aber sehr klein"
+          }
+        },
+        {
+          "criterion": "outside",
+          "score": null,
+          "text": {
+            "en": "Quiet corner by a museum in the old town, almost no cars",
+            "de": "Ruhige Ecke am Museum in der Altstadt, fast ohne Autos"
+          }
+        }
+      ],
+      "website": "https://caffe-da-gianni.de/",
+      "maps": "https://www.google.com/maps/search/?api=1&query=Caffe+da+Gianni+Marienstrasse+13+Freiburg",
+      "gallery": [
+        {
+          "image": "/images/places/da-gianni-1.webp",
+          "alt": {
+            "en": "Cappuccino at Caffè da Gianni",
+            "de": "Cappuccino bei Caffè da Gianni"
+          },
+          "kind": "coffee",
+          "source_url": "https://caffe-da-gianni.de/pages/cafe-freiburg",
+          "credit": "Café Da Gianni · caffe-da-gianni.de",
+          "rights_status": "unverified",
+          "publish": true
+        }
+      ],
+      "placeholder": false
+    },
+    {
+      "_component": "guide/place",
+      "id": "la-terrazza",
+      "name": "Café la Terrazza",
+      "quarter": {
+        "en": "Old Town",
+        "de": "Altstadt"
+      },
+      "specialty": {
+        "en": "Homemade Italian pastries, as at Da Gianni, and really good pasta",
+        "de": "Hausgemachtes italienisches Gebäck wie bei Da Gianni und richtig gute Pasta"
+      },
+      "tags": [
+        "italian",
+        "terrace"
+      ],
+      "ratings": [
+        {
+          "criterion": "coffee",
+          "score": 4.7,
+          "text": {
+            "en": "",
+            "de": ""
+          }
+        },
+        {
+          "criterion": "food",
+          "score": null,
+          "text": {
+            "en": "Fantastic food",
+            "de": "Fantastisches Essen"
+          }
+        },
+        {
+          "criterion": "style",
+          "score": null,
+          "text": {
+            "en": "Artsy without overdoing it",
+            "de": "Künstlerisch, ohne übertrieben zu sein"
+          }
+        },
+        {
+          "criterion": "inside",
+          "score": null,
+          "text": {
+            "en": "Usually inside the Museum of Modern Art",
+            "de": "Normalerweise im Museum für Neue Kunst"
+          }
+        },
+        {
+          "criterion": "outside",
+          "score": null,
+          "text": {
+            "en": "Across from Da Gianni, in an enclosed outdoor area",
+            "de": "Gegenüber von Da Gianni, in einem eingefassten Außenbereich"
+          }
+        }
+      ],
+      "website": "https://www.la-terrazza-freiburg.com/",
+      "maps": "https://www.google.com/maps/search/?api=1&query=La+Terrazza+ad+arte+Gianluigi+Palma+Freiburg",
+      "gallery": [
+        {
+          "image": "/images/places/la-terrazza-1.webp",
+          "alt": {
+            "en": "Food at la Terrazza",
+            "de": "Essen bei la Terrazza"
+          },
+          "kind": "food",
+          "source_url": "https://www.la-terrazza-freiburg.com/",
+          "credit": "Café la Terrazza · www.la-terrazza-freiburg.com",
+          "rights_status": "unverified",
+          "publish": true
+        },
+        {
+          "image": "/images/places/la-terrazza-2.webp",
+          "alt": {
+            "en": "Aperitivo detail at la Terrazza",
+            "de": "Aperitivo-Detail bei la Terrazza"
+          },
+          "kind": "interior",
+          "source_url": "https://www.la-terrazza-freiburg.com/",
+          "credit": "Café la Terrazza · www.la-terrazza-freiburg.com",
+          "rights_status": "unverified",
+          "publish": true
+        },
+        {
+          "image": "/images/places/la-terrazza-3.webp",
+          "alt": {
+            "en": "Burrata at la Terrazza",
+            "de": "Burrata bei la Terrazza"
+          },
+          "kind": "food",
+          "source_url": "https://www.la-terrazza-freiburg.com/",
+          "credit": "Café la Terrazza · www.la-terrazza-freiburg.com",
+          "rights_status": "unverified",
+          "publish": true
+        },
+        {
+          "image": "/images/places/la-terrazza-4.webp",
+          "alt": {
+            "en": "Aperitivo at la Terrazza",
+            "de": "Aperitivo bei la Terrazza"
+          },
+          "kind": "food",
+          "source_url": "https://www.la-terrazza-freiburg.com/",
+          "credit": "Café la Terrazza · www.la-terrazza-freiburg.com",
+          "rights_status": "unverified",
+          "publish": true
+        },
+        {
+          "image": "/images/places/la-terrazza-5.webp",
+          "alt": {
+            "en": "Flowers at la Terrazza",
+            "de": "Blumen bei la Terrazza"
+          },
+          "kind": "interior",
+          "source_url": "https://www.la-terrazza-freiburg.com/",
+          "credit": "Café la Terrazza · www.la-terrazza-freiburg.com",
+          "rights_status": "unverified",
+          "publish": true
+        }
+      ],
+      "placeholder": false
+    },
+    {
+      "_component": "guide/place",
+      "id": "la-parisienne",
+      "name": "Café Parisienne",
+      "quarter": {
+        "en": "Old Town",
+        "de": "Altstadt"
+      },
+      "specialty": {
+        "en": "Best croissants and macarons in town",
+        "de": "Die besten Croissants und Macarons der Stadt"
+      },
+      "tags": [
+        "french",
+        "pastries"
+      ],
+      "ratings": [
+        {
+          "criterion": "coffee",
+          "score": 4.5,
+          "text": {
+            "en": "",
+            "de": ""
+          }
+        },
+        {
+          "criterion": "food",
+          "score": null,
+          "text": {
+            "en": "Amazing pastries",
+            "de": "Großartiges Gebäck"
+          }
+        },
+        {
+          "criterion": "style",
+          "score": null,
+          "text": {
+            "en": "French bistro",
+            "de": "Französisches Bistro"
+          }
+        },
+        {
+          "criterion": "inside",
+          "score": null,
+          "text": {
+            "en": "A little cramped",
+            "de": "Etwas eng"
+          }
+        },
+        {
+          "criterion": "outside",
+          "score": null,
+          "text": {
+            "en": "Rather loud, but lovely for coffee and watching the old town bustle",
+            "de": "Recht laut, aber schön für Kaffee und das Treiben in der Altstadt"
+          }
+        }
+      ],
+      "website": "https://www.macaronnerie.com/en",
+      "maps": "https://www.google.com/maps/search/?api=1&query=La+Parisienne+Macaronnerie+Salzstrasse+51+Freiburg",
+      "gallery": [
+        {
+          "image": "/images/places/la-parisienne-1.webp",
+          "alt": {
+            "en": "Macaronnerie La Parisienne",
+            "de": "Macaronnerie La Parisienne"
+          },
+          "kind": "food",
+          "source_url": "https://www.macaronnerie.com/en",
+          "credit": "Café Parisienne · www.macaronnerie.com",
+          "rights_status": "unverified",
+          "publish": true
+        },
+        {
+          "image": "/images/places/la-parisienne-2.webp",
+          "alt": {
+            "en": "Pistachio macaron from La Parisienne",
+            "de": "Pistazien-Macaron von La Parisienne"
+          },
+          "kind": "food",
+          "source_url": "https://www.macaronnerie.com/en",
+          "credit": "Café Parisienne · www.macaronnerie.com",
+          "rights_status": "unverified",
+          "publish": true
+        },
+        {
+          "image": "/images/places/la-parisienne-3.webp",
+          "alt": {
+            "en": "Passion fruit macaron from La Parisienne",
+            "de": "Passionsfrucht-Macaron von La Parisienne"
+          },
+          "kind": "food",
+          "source_url": "https://www.macaronnerie.com/en",
+          "credit": "Café Parisienne · www.macaronnerie.com",
+          "rights_status": "unverified",
+          "publish": true
+        },
+        {
+          "image": "/images/places/la-parisienne-4.webp",
+          "alt": {
+            "en": "Vanilla macaron from La Parisienne",
+            "de": "Vanille-Macaron von La Parisienne"
+          },
+          "kind": "food",
+          "source_url": "https://www.macaronnerie.com/en",
+          "credit": "Café Parisienne · www.macaronnerie.com",
+          "rights_status": "unverified",
+          "publish": true
+        },
+        {
+          "image": "/images/places/la-parisienne-5.webp",
+          "alt": {
+            "en": "Pistachio and orange blossom macaron",
+            "de": "Macaron mit Pistazie und Orangenblüte"
+          },
+          "kind": "food",
+          "source_url": "https://www.macaronnerie.com/en",
+          "credit": "Café Parisienne · www.macaronnerie.com",
+          "rights_status": "unverified",
+          "publish": true
+        }
+      ],
+      "placeholder": false
+    },
+    {
+      "_component": "guide/place",
+      "id": "moltke",
+      "name": "Café Moltke",
+      "quarter": {
+        "en": "Im Grün",
+        "de": "Im Grün"
+      },
+      "specialty": {
+        "en": "The coffee",
+        "de": "Der Kaffee"
+      },
+      "tags": [
+        "specialty-coffee",
+        "terrace"
+      ],
+      "ratings": [
+        {
+          "criterion": "coffee",
+          "score": 4.8,
+          "text": {
+            "en": "",
+            "de": ""
+          }
+        },
+        {
+          "criterion": "food",
+          "score": null,
+          "text": {
+            "en": "Really good pastries",
+            "de": "Richtig gutes Gebäck"
+          }
+        },
+        {
+          "criterion": "style",
+          "score": null,
+          "text": {
+            "en": "Warm & hip",
+            "de": "Warm und hip"
+          }
+        },
+        {
+          "criterion": "inside",
+          "score": null,
+          "text": {
+            "en": "Tiny and cosy",
+            "de": "Winzig und gemütlich"
+          }
+        },
+        {
+          "criterion": "outside",
+          "score": null,
+          "text": {
+            "en": "Quiet corner with little traffic. Limited seats; take your coffee to the lawn opposite for afternoon sunshine",
+            "de": "Ruhige Ecke mit wenig Verkehr. Wenige Plätze; auf der Wiese gegenüber gibt es auch nachmittags Sonne"
+          }
+        }
+      ],
+      "website": "https://www.instagram.com/cafe_moltke/",
+      "maps": "https://www.google.com/maps/search/?api=1&query=Cafe+Moltke+Moltkestrasse+42+Freiburg",
+      "gallery": [
+        {
+          "image": "/images/places/moltke-7.webp",
+          "alt": {
+            "en": "Outside Café Moltke",
+            "de": "Außenansicht: Café Moltke"
+          },
+          "kind": "exterior",
+          "source_url": "https://restaurantguru.com/Cafe-Moltke-Freiburg",
+          "credit": "Café Moltke · restaurantguru.com",
+          "rights_status": "unverified",
+          "publish": true
+        },
+        {
+          "image": "/images/places/moltke-8.webp",
+          "alt": {
+            "en": "Inside Café Moltke",
+            "de": "Innenraum: Café Moltke"
+          },
+          "kind": "interior",
+          "source_url": "https://restaurantguru.com/Cafe-Moltke-Freiburg",
+          "credit": "Café Moltke · restaurantguru.com",
+          "rights_status": "unverified",
+          "publish": true
+        },
+        {
+          "image": "/images/places/moltke-9.webp",
+          "alt": {
+            "en": "Coffee at Café Moltke",
+            "de": "Kaffee bei Café Moltke"
+          },
+          "kind": "coffee",
+          "source_url": "https://restaurantguru.com/Cafe-Moltke-Freiburg",
+          "credit": "Café Moltke · restaurantguru.com",
+          "rights_status": "unverified",
+          "publish": true
+        },
+        {
+          "image": "/images/places/moltke-10.webp",
+          "alt": {
+            "en": "Food at Café Moltke",
+            "de": "Essen bei Café Moltke"
+          },
+          "kind": "food",
+          "source_url": "https://restaurantguru.com/Cafe-Moltke-Freiburg",
+          "credit": "Café Moltke · restaurantguru.com",
+          "rights_status": "unverified",
+          "publish": true
+        },
+        {
+          "image": "/images/places/moltke-11.webp",
+          "alt": {
+            "en": "Food at Café Moltke",
+            "de": "Essen bei Café Moltke"
+          },
+          "kind": "food",
+          "source_url": "https://restaurantguru.com/Cafe-Moltke-Freiburg",
+          "credit": "Café Moltke · restaurantguru.com",
+          "rights_status": "unverified",
+          "publish": true
+        }
+      ],
+      "placeholder": false
+    },
+    {
+      "_component": "guide/place",
+      "id": "baechle",
+      "name": "Café bächle",
+      "quarter": {
+        "en": "Friedrichring",
+        "de": "Friedrichring"
+      },
+      "specialty": {
+        "en": "The coffee — and a wine bar in the evening",
+        "de": "Der Kaffee – und abends wird es zur Weinbar"
+      },
+      "tags": [
+        "specialty-coffee",
+        "work-friendly",
+        "wine"
+      ],
+      "ratings": [
+        {
+          "criterion": "coffee",
+          "score": 4.8,
+          "text": {
+            "en": "",
+            "de": ""
+          }
+        },
+        {
+          "criterion": "food",
+          "score": null,
+          "text": {
+            "en": "Not tried yet, but it looks really good",
+            "de": "Noch nicht probiert, sieht aber richtig gut aus"
+          }
+        },
+        {
+          "criterion": "style",
+          "score": null,
+          "text": {
+            "en": "Elegant, modern and clean",
+            "de": "Elegant, modern und klar"
+          }
+        },
+        {
+          "criterion": "inside",
+          "score": null,
+          "text": {
+            "en": "Quiet, with a tiny coworking space next door: Die Friedrich, for a whole day on your laptop",
+            "de": "Ruhig, mit kleinem Coworking-Space nebenan: Die Friedrich, für einen ganzen Tag am Laptop"
+          }
+        },
+        {
+          "criterion": "outside",
+          "score": null,
+          "text": {
+            "en": "A few roadside tables; the nearby main road can be quite noisy",
+            "de": "Wenige Tische an der Straße; wegen der großen Straße manchmal recht laut"
+          }
+        }
+      ],
+      "website": "https://www.baechlefreiburg.de/",
+      "maps": "https://www.google.com/maps/search/?api=1&query=Baechle+Specialty+Coffee+Friedrichring+38+Freiburg",
+      "gallery": [
+        {
+          "image": "/images/places/baechle-1.webp",
+          "alt": {
+            "en": "Coffee preparation at bächle",
+            "de": "Kaffeezubereitung im bächle"
+          },
+          "kind": "coffee",
+          "source_url": "https://www.baechlefreiburg.de/uberuns",
+          "credit": "Café bächle · www.baechlefreiburg.de",
+          "rights_status": "unverified",
+          "publish": true
+        },
+        {
+          "image": "/images/places/baechle-2.webp",
+          "alt": {
+            "en": "The bar at bächle",
+            "de": "Die Bar im bächle"
+          },
+          "kind": "interior",
+          "source_url": "https://www.baechlefreiburg.de/uberuns",
+          "credit": "Café bächle · www.baechlefreiburg.de",
+          "rights_status": "unverified",
+          "publish": true
+        },
+        {
+          "image": "/images/places/baechle-3.webp",
+          "alt": {
+            "en": "Outdoor tables at bächle",
+            "de": "Außentische im bächle"
+          },
+          "kind": "exterior",
+          "source_url": "https://www.baechlefreiburg.de/uberuns",
+          "credit": "Café bächle · www.baechlefreiburg.de",
+          "rights_status": "unverified",
+          "publish": true
+        },
+        {
+          "image": "/images/places/baechle-4.webp",
+          "alt": {
+            "en": "A glimpse of bächle",
+            "de": "Ein Einblick ins bächle"
+          },
+          "kind": "interior",
+          "source_url": "https://www.baechlefreiburg.de/uberuns",
+          "credit": "Café bächle · www.baechlefreiburg.de",
+          "rights_status": "unverified",
+          "publish": true
+        },
+        {
+          "image": "/images/places/baechle-5.webp",
+          "alt": {
+            "en": "Coffee equipment at bächle",
+            "de": "Kaffeezubehör im bächle"
+          },
+          "kind": "coffee",
+          "source_url": "https://www.baechlefreiburg.de/uberuns",
+          "credit": "Café bächle · www.baechlefreiburg.de",
+          "rights_status": "unverified",
+          "publish": true
+        }
+      ],
+      "placeholder": false
+    },
+    {
+      "_component": "guide/place",
+      "id": "sedan",
+      "name": "Sedan Café",
+      "quarter": {
+        "en": "City Centre",
+        "de": "Innenstadt"
+      },
+      "specialty": {
+        "en": "Stefan’s cheesecake",
+        "de": "Stefans Käsekuchen"
+      },
+      "tags": [
+        "cake",
+        "pastries"
+      ],
+      "ratings": [
+        {
+          "criterion": "coffee",
+          "score": 4.4,
+          "text": {
+            "en": "",
+            "de": ""
+          }
+        },
+        {
+          "criterion": "food",
+          "score": null,
+          "text": {
+            "en": "A really good selection from local bakeries",
+            "de": "Sehr gute Auswahl von lokalen Bäckereien"
+          }
+        },
+        {
+          "criterion": "style",
+          "score": null,
+          "text": {
+            "en": "Retro hip",
+            "de": "Retro und hip"
+          }
+        },
+        {
+          "criterion": "inside",
+          "score": null,
+          "text": {
+            "en": "A bit loud at the front, cosy at the back",
+            "de": "Vorne etwas laut, hinten gemütlich"
+          }
+        },
+        {
+          "criterion": "outside",
+          "score": null,
+          "text": {
+            "en": "Not too loud, but close to the station",
+            "de": "Nicht besonders laut, aber nahe am Bahnhof"
+          }
+        }
+      ],
+      "website": "https://www.instagram.com/sedancafe/",
+      "maps": "https://www.google.com/maps/search/?api=1&query=Sedan+Cafe+Sedanstrasse+9+Freiburg",
+      "gallery": [
+        {
+          "image": "/images/places/sedan-7.webp",
+          "alt": {
+            "en": "Outside Sedan Café",
+            "de": "Außenansicht: Sedan Café"
+          },
+          "kind": "exterior",
+          "source_url": "https://restaurantguru.com/Sedan-Freiburg",
+          "credit": "Sedan Café · restaurantguru.com",
+          "rights_status": "unverified",
+          "publish": true
+        },
+        {
+          "image": "/images/places/sedan-8.webp",
+          "alt": {
+            "en": "Inside Sedan Café",
+            "de": "Innenraum: Sedan Café"
+          },
+          "kind": "interior",
+          "source_url": "https://restaurantguru.com/Sedan-Freiburg",
+          "credit": "Sedan Café · restaurantguru.com",
+          "rights_status": "unverified",
+          "publish": true
+        },
+        {
+          "image": "/images/places/sedan-9.webp",
+          "alt": {
+            "en": "Coffee at Sedan Café",
+            "de": "Kaffee bei Sedan Café"
+          },
+          "kind": "coffee",
+          "source_url": "https://restaurantguru.com/Sedan-Freiburg",
+          "credit": "Sedan Café · restaurantguru.com",
+          "rights_status": "unverified",
+          "publish": true
+        },
+        {
+          "image": "/images/places/sedan-10.webp",
+          "alt": {
+            "en": "Food at Sedan Café",
+            "de": "Essen bei Sedan Café"
+          },
+          "kind": "food",
+          "source_url": "https://restaurantguru.com/Sedan-Freiburg",
+          "credit": "Sedan Café · restaurantguru.com",
+          "rights_status": "unverified",
+          "publish": true
+        },
+        {
+          "image": "/images/places/sedan-11.webp",
+          "alt": {
+            "en": "Food at Sedan Café",
+            "de": "Essen bei Sedan Café"
+          },
+          "kind": "food",
+          "source_url": "https://restaurantguru.com/Sedan-Freiburg",
+          "credit": "Sedan Café · restaurantguru.com",
+          "rights_status": "unverified",
+          "publish": true
+        }
+      ],
+      "placeholder": false
+    },
+    {
+      "_component": "guide/place",
+      "id": "auszeit",
+      "name": "Café Auszeit",
+      "quarter": {
+        "en": "City Centre",
+        "de": "Innenstadt"
+      },
+      "specialty": {
+        "en": "Amazing fresh juice",
+        "de": "Fantastischer frischer Saft"
+      },
+      "tags": [
+        "terrace",
+        "lunch"
+      ],
+      "ratings": [
+        {
+          "criterion": "coffee",
+          "score": 4.4,
+          "text": {
+            "en": "",
+            "de": ""
+          }
+        },
+        {
+          "criterion": "food",
+          "score": null,
+          "text": {
+            "en": "Pretty good pastries, healthy salads and daily specials",
+            "de": "Gutes Gebäck, gesunde Salate und Tagesgerichte"
+          }
+        },
+        {
+          "criterion": "style",
+          "score": null,
+          "text": {
+            "en": "Artsy modern",
+            "de": "Künstlerisch und modern"
+          }
+        },
+        {
+          "criterion": "inside",
+          "score": null,
+          "text": {
+            "en": "Cramped, with small tables and bar stools",
+            "de": "Eng, mit kleinen Tischen und Barhockern"
+          }
+        },
+        {
+          "criterion": "outside",
+          "score": null,
+          "text": {
+            "en": "By the theatre, so a little louder, but a favourite for outdoor coffee in the centre",
+            "de": "Am Stadttheater etwas lauter, trotzdem einer der schönsten Plätze für Kaffee draußen im Zentrum"
+          }
+        }
+      ],
+      "website": "https://www.cafeauszeit.com/",
+      "maps": "https://www.google.com/maps/search/?api=1&query=Cafe+Auszeit+Moltkestrasse+16+Freiburg",
+      "gallery": [
+        {
+          "image": "/images/places/auszeit-1.webp",
+          "alt": {
+            "en": "Coffee at Café Auszeit",
+            "de": "Kaffee im Café Auszeit"
+          },
+          "kind": "coffee",
+          "source_url": "https://www.cafeauszeit.com/",
+          "credit": "Café Auszeit · www.cafeauszeit.com",
+          "rights_status": "unverified",
+          "publish": true
+        },
+        {
+          "image": "/images/places/auszeit-2.webp",
+          "alt": {
+            "en": "Cappuccino at Café Auszeit",
+            "de": "Cappuccino im Café Auszeit"
+          },
+          "kind": "coffee",
+          "source_url": "https://www.cafeauszeit.com/",
+          "credit": "Café Auszeit · www.cafeauszeit.com",
+          "rights_status": "unverified",
+          "publish": true
+        },
+        {
+          "image": "/images/places/auszeit-3.webp",
+          "alt": {
+            "en": "Pastries at Café Auszeit",
+            "de": "Gebäck im Café Auszeit"
+          },
+          "kind": "food",
+          "source_url": "https://www.cafeauszeit.com/",
+          "credit": "Café Auszeit · www.cafeauszeit.com",
+          "rights_status": "unverified",
+          "publish": true
+        }
+      ],
+      "placeholder": false
+    },
+    {
+      "_component": "guide/place",
+      "id": "kien",
+      "name": "Café KIEN",
+      "quarter": {
+        "en": "Old Town",
+        "de": "Altstadt"
+      },
+      "specialty": {
+        "en": "Julia’s carrot cake",
+        "de": "Julias Karottenkuchen"
+      },
+      "tags": [
+        "cake",
+        "terrace",
+        "lunch"
+      ],
+      "ratings": [
+        {
+          "criterion": "coffee",
+          "score": 4.7,
+          "text": {
+            "en": "",
+            "de": ""
+          }
+        },
+        {
+          "criterion": "food",
+          "score": null,
+          "text": {
+            "en": "Great pastries and fantastic daily specials",
+            "de": "Tolles Gebäck und fantastische Tagesgerichte"
+          }
+        },
+        {
+          "criterion": "style",
+          "score": null,
+          "text": {
+            "en": "Modern café meets a former monastery",
+            "de": "Modernes Café im ehemaligen Kloster"
+          }
+        },
+        {
+          "criterion": "inside",
+          "score": null,
+          "text": {
+            "en": "Inside the Augustiner Museum; noise depends on where you sit",
+            "de": "Im Augustinermuseum; je nach Sitzplatz etwas laut"
+          }
+        },
+        {
+          "criterion": "outside",
+          "score": null,
+          "text": {
+            "en": "Lovely terrace by Augustinerplatz",
+            "de": "Sehr schöne Terrasse am Augustinerplatz"
+          }
+        }
+      ],
+      "website": "https://www.kienfreiburg.de/",
+      "maps": "https://www.google.com/maps/search/?api=1&query=Cafe+Kien+Augustinerplatz+3+Freiburg",
+      "gallery": [
+        {
+          "image": "/images/places/kien-1.webp",
+          "alt": {
+            "en": "The interior of Café KIEN",
+            "de": "Innenraum von Café KIEN"
+          },
+          "kind": "interior",
+          "source_url": "https://www.kienfreiburg.de/",
+          "credit": "Café KIEN · Christoph Düpper (laut Dateiname)",
+          "rights_status": "unverified",
+          "publish": true
+        },
+        {
+          "image": "/images/places/kien-2.webp",
+          "alt": {
+            "en": "Vaulted room at Café KIEN",
+            "de": "Gewölberaum im Café KIEN"
+          },
+          "kind": "interior",
+          "source_url": "https://www.kienfreiburg.de/",
+          "credit": "Café KIEN · Christoph Düpper (laut Dateiname)",
+          "rights_status": "unverified",
+          "publish": true
+        },
+        {
+          "image": "/images/places/kien-3.webp",
+          "alt": {
+            "en": "A window table at Café KIEN",
+            "de": "Ein Fensterplatz im Café KIEN"
+          },
+          "kind": "interior",
+          "source_url": "https://www.kienfreiburg.de/",
+          "credit": "Café KIEN · Christoph Düpper (laut Dateiname)",
+          "rights_status": "unverified",
+          "publish": true
+        },
+        {
+          "image": "/images/places/kien-4.webp",
+          "alt": {
+            "en": "Food at Café KIEN",
+            "de": "Essen im Café KIEN"
+          },
+          "kind": "food",
+          "source_url": "https://www.kienfreiburg.de/",
+          "credit": "Café KIEN · www.kienfreiburg.de",
+          "rights_status": "unverified",
+          "publish": true
+        },
+        {
+          "image": "/images/places/kien-5.webp",
+          "alt": {
+            "en": "A plate at Café KIEN",
+            "de": "Ein Gericht im Café KIEN"
+          },
+          "kind": "food",
+          "source_url": "https://www.kienfreiburg.de/",
+          "credit": "Café KIEN · www.kienfreiburg.de",
+          "rights_status": "unverified",
+          "publish": true
+        }
+      ],
+      "placeholder": false
+    },
+    {
+      "_component": "guide/place",
+      "id": "kolben",
+      "name": "Café Kolben",
+      "quarter": {
+        "en": "Old Town",
+        "de": "Altstadt"
+      },
+      "specialty": {
+        "en": "Try the pear puff pastry slices — maybe my favourite pastry",
+        "de": "Unbedingt die Birnen-Blätterteigschnitte probieren – vielleicht mein Lieblingsgebäck"
+      },
+      "tags": [
+        "pastries",
+        "classic"
+      ],
+      "ratings": [
+        {
+          "criterion": "coffee",
+          "score": 4.8,
+          "text": {
+            "en": "",
+            "de": ""
+          }
+        },
+        {
+          "criterion": "food",
+          "score": null,
+          "text": {
+            "en": "Excellent pastries",
+            "de": "Ausgezeichnetes Gebäck"
+          }
+        },
+        {
+          "criterion": "style",
+          "score": null,
+          "text": {
+            "en": "Elegant, classic coffee house",
+            "de": "Elegantes, klassisches Kaffeehaus"
+          }
+        },
+        {
+          "criterion": "inside",
+          "score": null,
+          "text": {
+            "en": "Usually busy and quite loud; finding a table can be hard",
+            "de": "Meist gut besucht und recht laut; ein Tisch ist schwer zu finden"
+          }
+        },
+        {
+          "criterion": "outside",
+          "score": null,
+          "text": {
+            "en": "Alley beside Martinstor; sometimes noisy, still a good spot outside",
+            "de": "Gasse neben dem Martinstor; manchmal laut, trotzdem einer der besseren Plätze draußen"
+          }
+        }
+      ],
+      "website": "https://www.kolbenkaffee-freiburg.de/",
+      "maps": "https://www.google.com/maps/search/?api=1&query=Kolben+Kaffee+Kaiser+Joseph+Strasse+233+Freiburg",
+      "gallery": [
+        {
+          "image": "/images/places/kolben-1.webp",
+          "alt": {
+            "en": "Outdoor tables at Kolben Kaffee",
+            "de": "Außentische bei Kolben Kaffee"
+          },
+          "kind": "exterior",
+          "source_url": "https://kolbenkaffee-freiburg.de/",
+          "credit": "Café Kolben · kolbenkaffee-freiburg.de",
+          "rights_status": "unverified",
+          "publish": true
+        },
+        {
+          "image": "/images/places/kolben-2.webp",
+          "alt": {
+            "en": "Inside Kolben Kaffee",
+            "de": "Innenraum von Kolben Kaffee"
+          },
+          "kind": "interior",
+          "source_url": "https://kolbenkaffee-freiburg.de/",
+          "credit": "Café Kolben · kolbenkaffee-freiburg.de",
+          "rights_status": "unverified",
+          "publish": true
+        },
+        {
+          "image": "/images/places/kolben-3.webp",
+          "alt": {
+            "en": "Coffee at Kolben Kaffee",
+            "de": "Kaffee bei Kolben Kaffee"
+          },
+          "kind": "coffee",
+          "source_url": "https://kolbenkaffee-freiburg.de/",
+          "credit": "Café Kolben · kolbenkaffee-freiburg.de",
+          "rights_status": "unverified",
+          "publish": true
+        },
+        {
+          "image": "/images/places/kolben-4.webp",
+          "alt": {
+            "en": "Pastries at Kolben Kaffee",
+            "de": "Gebäck bei Kolben Kaffee"
+          },
+          "kind": "food",
+          "source_url": "https://kolbenkaffee-freiburg.de/",
+          "credit": "Café Kolben · kolbenkaffee-freiburg.de",
+          "rights_status": "unverified",
+          "publish": true
+        },
+        {
+          "image": "/images/places/kolben-5.webp",
+          "alt": {
+            "en": "Cake at Kolben Kaffee",
+            "de": "Kuchen bei Kolben Kaffee"
+          },
+          "kind": "food",
+          "source_url": "https://kolbenkaffee-freiburg.de/",
+          "credit": "Café Kolben · kolbenkaffee-freiburg.de",
+          "rights_status": "unverified",
+          "publish": true
+        }
+      ],
+      "placeholder": false
+    },
+    {
+      "_component": "guide/place",
+      "id": "jc",
+      "name": "JC Café",
+      "quarter": {
+        "en": "Stühlinger",
+        "de": "Stühlinger"
+      },
+      "specialty": {
+        "en": "The ambience",
+        "de": "Die Atmosphäre"
+      },
+      "tags": [
+        "cake",
+        "retro"
+      ],
+      "ratings": [
+        {
+          "criterion": "coffee",
+          "score": 4.4,
+          "text": {
+            "en": "",
+            "de": ""
+          }
+        },
+        {
+          "criterion": "food",
+          "score": null,
+          "text": {
+            "en": "Good cakes",
+            "de": "Gute Kuchen"
+          }
+        },
+        {
+          "criterion": "style",
+          "score": null,
+          "text": {
+            "en": "Retro",
+            "de": "Retro"
+          }
+        },
+        {
+          "criterion": "inside",
+          "score": null,
+          "text": {
+            "en": "Cosy and laid back",
+            "de": "Gemütlich und entspannt"
+          }
+        },
+        {
+          "criterion": "outside",
+          "score": null,
+          "text": {
+            "en": "Quiet street near the central station",
+            "de": "Ruhige Straße nahe dem Hauptbahnhof"
+          }
+        }
+      ],
+      "website": "https://www.instagram.com/_.jccafe/",
+      "maps": "https://www.google.com/maps/search/?api=1&query=JC+Cafe+Klarastrasse+70+Freiburg",
+      "gallery": [
+        {
+          "image": "/images/places/jc-7.webp",
+          "alt": {
+            "en": "Outside JC Café",
+            "de": "Außenansicht: JC Café"
+          },
+          "kind": "exterior",
+          "source_url": "https://restaurantguru.com/JC-Freiburg",
+          "credit": "JC Café · restaurantguru.com",
+          "rights_status": "unverified",
+          "publish": true
+        },
+        {
+          "image": "/images/places/jc-8.webp",
+          "alt": {
+            "en": "Inside JC Café",
+            "de": "Innenraum: JC Café"
+          },
+          "kind": "interior",
+          "source_url": "https://restaurantguru.com/JC-Freiburg",
+          "credit": "JC Café · restaurantguru.com",
+          "rights_status": "unverified",
+          "publish": true
+        },
+        {
+          "image": "/images/places/jc-9.webp",
+          "alt": {
+            "en": "Coffee at JC Café",
+            "de": "Kaffee bei JC Café"
+          },
+          "kind": "coffee",
+          "source_url": "https://restaurantguru.com/JC-Freiburg",
+          "credit": "JC Café · restaurantguru.com",
+          "rights_status": "unverified",
+          "publish": true
+        },
+        {
+          "image": "/images/places/jc-10.webp",
+          "alt": {
+            "en": "Food at JC Café",
+            "de": "Essen bei JC Café"
+          },
+          "kind": "food",
+          "source_url": "https://restaurantguru.com/JC-Freiburg",
+          "credit": "JC Café · restaurantguru.com",
+          "rights_status": "unverified",
+          "publish": true
+        },
+        {
+          "image": "/images/places/jc-11.webp",
+          "alt": {
+            "en": "Food at JC Café",
+            "de": "Essen bei JC Café"
+          },
+          "kind": "food",
+          "source_url": "https://restaurantguru.com/JC-Freiburg",
+          "credit": "JC Café · restaurantguru.com",
+          "rights_status": "unverified",
+          "publish": true
+        }
+      ],
+      "placeholder": false
+    }
+  ],
+  "nav_title": {
+    "en": "Cafés",
+    "de": "Cafés"
+  }
+}

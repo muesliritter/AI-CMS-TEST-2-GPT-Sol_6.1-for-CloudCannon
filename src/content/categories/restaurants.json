@@ -1,0 +1,122 @@
+{
+  "slug": "restaurants",
+  "title": {
+    "en": "Restaurants",
+    "de": "Restaurants"
+  },
+  "intro": {
+    "en": "Good things are on their way. This chapter is still being written.",
+    "de": "Hier entsteht etwas Schönes. Dieses Kapitel wird noch geschrieben."
+  },
+  "eyebrow": {
+    "en": "The little black book",
+    "de": "Das kleine Lieblingsbuch"
+  },
+  "status": "coming-soon",
+  "order": 2,
+  "rating_criteria": [
+    {
+      "id": "food",
+      "label": {
+        "en": "Food",
+        "de": "Essen"
+      },
+      "kind": "score",
+      "maximum": 5
+    },
+    {
+      "id": "service",
+      "label": {
+        "en": "Service",
+        "de": "Service"
+      },
+      "kind": "score",
+      "maximum": 5
+    },
+    {
+      "id": "atmosphere",
+      "label": {
+        "en": "Atmosphere",
+        "de": "Atmosphäre"
+      },
+      "kind": "text",
+      "maximum": 5
+    },
+    {
+      "id": "value",
+      "label": {
+        "en": "Value",
+        "de": "Preis-Leistung"
+      },
+      "kind": "score",
+      "maximum": 5
+    }
+  ],
+  "tags": [
+    {
+      "id": "favourite",
+      "label": {
+        "en": "Favourite",
+        "de": "Lieblingsort"
+      }
+    }
+  ],
+  "sections": [
+    {
+      "_component": "guide/place",
+      "id": "example-restaurants",
+      "name": "A table worth finding",
+      "quarter": {
+        "en": "Coming soon",
+        "de": "Demnächst"
+      },
+      "specialty": {
+        "en": "A space for the next recommendation.",
+        "de": "Platz für die nächste Empfehlung."
+      },
+      "tags": [],
+      "ratings": [
+        {
+          "criterion": "food",
+          "score": null,
+          "text": {
+            "en": "To be discovered",
+            "de": "Wird noch entdeckt"
+          }
+        },
+        {
+          "criterion": "service",
+          "score": null,
+          "text": {
+            "en": "To be discovered",
+            "de": "Wird noch entdeckt"
+          }
+        },
+        {
+          "criterion": "atmosphere",
+          "score": null,
+          "text": {
+            "en": "To be discovered",
+            "de": "Wird noch entdeckt"
+          }
+        },
+        {
+          "criterion": "value",
+          "score": null,
+          "text": {
+            "en": "To be discovered",
+            "de": "Wird noch entdeckt"
+          }
+        }
+      ],
+      "website": "",
+      "maps": "",
+      "gallery": [],
+      "placeholder": true
+    }
+  ],
+  "nav_title": {
+    "en": "Restaurants",
+    "de": "Restaurants"
+  }
+}

@@ -1,0 +1,471 @@
+{
+  "slug": "bakeries",
+  "title": {
+    "en": "A good day starts with bread.",
+    "de": "Ein guter Tag beginnt mit Brot."
+  },
+  "intro": {
+    "en": "Six stops for buttery layers, sourdough crusts and something sweet to take home.",
+    "de": "Sechs Adressen für buttrige Schichten, Sauerteigkrusten und etwas Süßes für zuhause."
+  },
+  "eyebrow": {
+    "en": "The little black book",
+    "de": "Das kleine Lieblingsbuch"
+  },
+  "status": "active",
+  "order": 1,
+  "rating_criteria": [
+    {
+      "id": "specialty",
+      "label": {
+        "en": "Worth coming for",
+        "de": "Dafür lohnt es sich"
+      },
+      "kind": "text",
+      "maximum": 5
+    },
+    {
+      "id": "bread",
+      "label": {
+        "en": "Bread",
+        "de": "Brot"
+      },
+      "kind": "score",
+      "maximum": 5
+    },
+    {
+      "id": "pastry",
+      "label": {
+        "en": "Pastries",
+        "de": "Gebäck"
+      },
+      "kind": "score",
+      "maximum": 5
+    }
+  ],
+  "tags": [
+    {
+      "id": "bread",
+      "label": {
+        "en": "Bread",
+        "de": "Brot"
+      }
+    },
+    {
+      "id": "pastries",
+      "label": {
+        "en": "Pastries",
+        "de": "Gebäck"
+      }
+    },
+    {
+      "id": "italian",
+      "label": {
+        "en": "Italian",
+        "de": "Italienisch"
+      }
+    },
+    {
+      "id": "french",
+      "label": {
+        "en": "French",
+        "de": "Französisch"
+      }
+    },
+    {
+      "id": "cakes",
+      "label": {
+        "en": "Cakes & chocolates",
+        "de": "Kuchen & Pralinen"
+      }
+    }
+  ],
+  "sections": [
+    {
+      "_component": "guide/place",
+      "id": "brotbruder",
+      "name": "Brotbruder",
+      "quarter": {
+        "en": "Wiehre",
+        "de": "Wiehre"
+      },
+      "specialty": {
+        "en": "Hands down the best bread in town. Amazing sweet pastries, too.",
+        "de": "Für mich das beste Brot der Stadt. Auch das süße Gebäck ist fantastisch."
+      },
+      "tags": [
+        "bread",
+        "pastries"
+      ],
+      "ratings": [
+        {
+          "criterion": "specialty",
+          "score": null,
+          "text": {
+            "en": "Hands down the best bread in town. Amazing sweet pastries, too.",
+            "de": "Für mich das beste Brot der Stadt. Auch das süße Gebäck ist fantastisch."
+          }
+        }
+      ],
+      "website": "https://www.instagram.com/brotbruder_fr/",
+      "maps": "https://www.google.com/maps/search/?api=1&query=Brotbruder+Zasiusstrasse+9+Freiburg",
+      "gallery": [
+        {
+          "image": "/images/places/brotbruder-1.webp",
+          "alt": {
+            "en": "Breadmaking at Brotbruder",
+            "de": "Brotbacken bei Brotbruder"
+          },
+          "kind": "interior",
+          "source_url": "https://blendwerk-freiburg.de/2024/02/05/fotos-fuer-handwerk-magazin-brotbruder-freiburg/",
+          "credit": "Blendwerk Freiburg · Fotografenquelle; Freigabe ausstehend",
+          "rights_status": "unverified",
+          "publish": true
+        },
+        {
+          "image": "/images/places/brotbruder-2.webp",
+          "alt": {
+            "en": "Inside the Brotbruder bakery",
+            "de": "In der Backstube von Brotbruder"
+          },
+          "kind": "interior",
+          "source_url": "https://blendwerk-freiburg.de/2024/02/05/fotos-fuer-handwerk-magazin-brotbruder-freiburg/",
+          "credit": "Blendwerk Freiburg · Fotografenquelle; Freigabe ausstehend",
+          "rights_status": "unverified",
+          "publish": true
+        },
+        {
+          "image": "/images/places/brotbruder-3.webp",
+          "alt": {
+            "en": "Bakers at work at Brotbruder",
+            "de": "Bäcker bei der Arbeit bei Brotbruder"
+          },
+          "kind": "interior",
+          "source_url": "https://blendwerk-freiburg.de/2024/02/05/fotos-fuer-handwerk-magazin-brotbruder-freiburg/",
+          "credit": "Blendwerk Freiburg · Fotografenquelle; Freigabe ausstehend",
+          "rights_status": "unverified",
+          "publish": true
+        }
+      ],
+      "placeholder": false
+    },
+    {
+      "_component": "guide/place",
+      "id": "zeit-fuer-brot",
+      "name": "Zeit für Brot",
+      "quarter": {
+        "en": "Old Town",
+        "de": "Altstadt"
+      },
+      "specialty": {
+        "en": "Great organic bread and pastries next to the Münster",
+        "de": "Tolles Bio-Brot und Gebäck neben dem Münster"
+      },
+      "tags": [
+        "bread",
+        "pastries"
+      ],
+      "ratings": [
+        {
+          "criterion": "specialty",
+          "score": null,
+          "text": {
+            "en": "Great organic bread and pastries next to the Münster",
+            "de": "Tolles Bio-Brot und Gebäck neben dem Münster"
+          }
+        }
+      ],
+      "website": "https://zeitfuerbrot.com/en/bakeries",
+      "maps": "https://www.google.com/maps/search/?api=1&query=Zeit+fuer+Brot+Eisenstrasse+2+Freiburg",
+      "gallery": [
+        {
+          "image": "/images/places/zeit-fuer-brot-1.webp",
+          "alt": {
+            "en": "Zeit für Brot, Eisenstraße, Freiburg",
+            "de": "Zeit für Brot, Eisenstraße, Freiburg"
+          },
+          "kind": "exterior",
+          "source_url": "https://zeitfuerbrot.com/baeckereien",
+          "credit": "Zeit für Brot · zeitfuerbrot.com",
+          "rights_status": "unverified",
+          "publish": true
+        },
+        {
+          "image": "/images/places/zeit-fuer-brot-2.webp",
+          "alt": {
+            "en": "Inside Zeit für Brot Freiburg",
+            "de": "Innenraum von Zeit für Brot Freiburg"
+          },
+          "kind": "interior",
+          "source_url": "https://zeitfuerbrot.com/baeckereien",
+          "credit": "Zeit für Brot · zeitfuerbrot.com",
+          "rights_status": "unverified",
+          "publish": true
+        },
+        {
+          "image": "/images/places/zeit-fuer-brot-3.webp",
+          "alt": {
+            "en": "Window seats at Zeit für Brot Freiburg",
+            "de": "Fensterplätze bei Zeit für Brot Freiburg"
+          },
+          "kind": "interior",
+          "source_url": "https://zeitfuerbrot.com/baeckereien",
+          "credit": "Zeit für Brot · zeitfuerbrot.com",
+          "rights_status": "unverified",
+          "publish": true
+        }
+      ],
+      "placeholder": false
+    },
+    {
+      "_component": "guide/place",
+      "id": "da-quirino",
+      "name": "Da Quirino, Italian Bakery",
+      "quarter": {
+        "en": "Stühlinger",
+        "de": "Stühlinger"
+      },
+      "specialty": {
+        "en": "Focaccia and cantuccini",
+        "de": "Focaccia und Cantuccini"
+      },
+      "tags": [
+        "italian",
+        "bread"
+      ],
+      "ratings": [
+        {
+          "criterion": "specialty",
+          "score": null,
+          "text": {
+            "en": "Focaccia and cantuccini",
+            "de": "Focaccia und Cantuccini"
+          }
+        }
+      ],
+      "website": "https://www.instagram.com/backstuble/",
+      "maps": "https://www.google.com/maps/search/?api=1&query=Da+Quirino+Backstueble+Guntramstrasse+43+Freiburg",
+      "gallery": [
+        {
+          "image": "/images/places/da-quirino-1.webp",
+          "alt": {
+            "en": "Inside Da Quirino Backstüble",
+            "de": "Innenraum von Da Quirino Backstüble"
+          },
+          "kind": "interior",
+          "source_url": "https://deutschlands-experten.de/baeckerei/freiburg-im-breisgau/da-quirino-backstueble-freiburg-im-breisgau/",
+          "credit": "Da Quirino, Italian Bakery · deutschlands-experten.de",
+          "rights_status": "unverified",
+          "publish": true
+        }
+      ],
+      "placeholder": false
+    },
+    {
+      "_component": "guide/place",
+      "id": "la-baguette",
+      "name": "La Baguette, French Bakery",
+      "quarter": {
+        "en": "Stühlinger",
+        "de": "Stühlinger"
+      },
+      "specialty": {
+        "en": "Croissants filled with apricot and topped with almonds",
+        "de": "Croissants mit Aprikosenfüllung und Mandeln obendrauf"
+      },
+      "tags": [
+        "french",
+        "pastries"
+      ],
+      "ratings": [
+        {
+          "criterion": "specialty",
+          "score": null,
+          "text": {
+            "en": "Croissants filled with apricot and topped with almonds",
+            "de": "Croissants mit Aprikosenfüllung und Mandeln obendrauf"
+          }
+        }
+      ],
+      "website": "https://boulangerie-labaguette.de/",
+      "maps": "https://www.google.com/maps/search/?api=1&query=La+Baguette+Eschholzstrasse+36+Freiburg",
+      "gallery": [
+        {
+          "image": "/images/places/la-baguette-7.webp",
+          "alt": {
+            "en": "Outside La Baguette, French Bakery",
+            "de": "Außenansicht: La Baguette, French Bakery"
+          },
+          "kind": "exterior",
+          "source_url": "https://restaurantguru.com/La-baguette-Freiburg",
+          "credit": "La Baguette, French Bakery · restaurantguru.com",
+          "rights_status": "unverified",
+          "publish": true
+        },
+        {
+          "image": "/images/places/la-baguette-8.webp",
+          "alt": {
+            "en": "Inside La Baguette, French Bakery",
+            "de": "Innenraum: La Baguette, French Bakery"
+          },
+          "kind": "interior",
+          "source_url": "https://restaurantguru.com/La-baguette-Freiburg",
+          "credit": "La Baguette, French Bakery · restaurantguru.com",
+          "rights_status": "unverified",
+          "publish": true
+        },
+        {
+          "image": "/images/places/la-baguette-9.webp",
+          "alt": {
+            "en": "Food at La Baguette, French Bakery",
+            "de": "Essen bei La Baguette, French Bakery"
+          },
+          "kind": "food",
+          "source_url": "https://restaurantguru.com/La-baguette-Freiburg",
+          "credit": "La Baguette, French Bakery · restaurantguru.com",
+          "rights_status": "unverified",
+          "publish": true
+        },
+        {
+          "image": "/images/places/la-baguette-10.webp",
+          "alt": {
+            "en": "Food at La Baguette, French Bakery",
+            "de": "Essen bei La Baguette, French Bakery"
+          },
+          "kind": "food",
+          "source_url": "https://restaurantguru.com/La-baguette-Freiburg",
+          "credit": "La Baguette, French Bakery · restaurantguru.com",
+          "rights_status": "unverified",
+          "publish": true
+        },
+        {
+          "image": "/images/places/la-baguette-11.webp",
+          "alt": {
+            "en": "Food at La Baguette, French Bakery",
+            "de": "Essen bei La Baguette, French Bakery"
+          },
+          "kind": "food",
+          "source_url": "https://restaurantguru.com/La-baguette-Freiburg",
+          "credit": "La Baguette, French Bakery · restaurantguru.com",
+          "rights_status": "unverified",
+          "publish": true
+        }
+      ],
+      "placeholder": false
+    },
+    {
+      "_component": "guide/place",
+      "id": "graf-anton",
+      "name": "Café Confiserie Graf Anton",
+      "quarter": {
+        "en": "Old Town / City Centre",
+        "de": "Altstadt / Innenstadt"
+      },
+      "specialty": {
+        "en": "A five-star hotel bakery with incredible cakes. Not my usual place for coffee.",
+        "de": "Die Bäckerei eines Fünf-Sterne-Hotels mit unglaublichen Kuchen. Zum Kaffeetrinken nicht so mein Ort."
+      },
+      "tags": [
+        "cakes"
+      ],
+      "ratings": [
+        {
+          "criterion": "specialty",
+          "score": null,
+          "text": {
+            "en": "A five-star hotel bakery with incredible cakes. Not my usual place for coffee.",
+            "de": "Die Bäckerei eines Fünf-Sterne-Hotels mit unglaublichen Kuchen. Zum Kaffeetrinken nicht so mein Ort."
+          }
+        }
+      ],
+      "website": "https://www.colombi.de/en/dining",
+      "maps": "https://www.google.com/maps/search/?api=1&query=Cafe+Confiserie+Graf+Anton+Rotteckring+16+Freiburg",
+      "gallery": [
+        {
+          "image": "/images/places/graf-anton-1.webp",
+          "alt": {
+            "en": "Inside Café Confiserie Graf Anton",
+            "de": "Innenraum von Café Confiserie Graf Anton"
+          },
+          "kind": "interior",
+          "source_url": "https://www.colombi.de/en/dining",
+          "credit": "Café Confiserie Graf Anton · www.colombi.de",
+          "rights_status": "unverified",
+          "publish": true
+        },
+        {
+          "image": "/images/places/graf-anton-2.webp",
+          "alt": {
+            "en": "Cake selection at Graf Anton",
+            "de": "Kuchenauswahl bei Graf Anton"
+          },
+          "kind": "food",
+          "source_url": "https://www.colombi.de/en/dining",
+          "credit": "Colombi Hotel · Heidi Hintereck (laut Dateiname)",
+          "rights_status": "unverified",
+          "publish": true
+        },
+        {
+          "image": "/images/places/graf-anton-3.webp",
+          "alt": {
+            "en": "Fruit cakes at Graf Anton",
+            "de": "Obstkuchen bei Graf Anton"
+          },
+          "kind": "food",
+          "source_url": "https://www.colombi.de/en/dining",
+          "credit": "Colombi Hotel · Heidi Hintereck (laut Dateiname)",
+          "rights_status": "unverified",
+          "publish": true
+        }
+      ],
+      "placeholder": false
+    },
+    {
+      "_component": "guide/place",
+      "id": "gmeiner",
+      "name": "Confiserie Gmeiner",
+      "quarter": {
+        "en": "Old Town",
+        "de": "Altstadt"
+      },
+      "specialty": {
+        "en": "Fancy pralines, cakes and pies next to Martinstor",
+        "de": "Feine Pralinen, Kuchen und Torten neben dem Martinstor"
+      },
+      "tags": [
+        "cakes"
+      ],
+      "ratings": [
+        {
+          "criterion": "specialty",
+          "score": null,
+          "text": {
+            "en": "Fancy pralines, cakes and pies next to Martinstor",
+            "de": "Feine Pralinen, Kuchen und Torten neben dem Martinstor"
+          }
+        }
+      ],
+      "website": "https://www.confiserie-gmeiner.com/en/stores/freiburg",
+      "maps": "https://www.google.com/maps/search/?api=1&query=Confiserie+Gmeiner+Kaiser+Joseph+Strasse+243+Freiburg",
+      "gallery": [
+        {
+          "image": "/images/places/gmeiner-1.webp",
+          "alt": {
+            "en": "Confiserie Gmeiner in Freiburg",
+            "de": "Confiserie Gmeiner in Freiburg"
+          },
+          "kind": "interior",
+          "source_url": "https://www.confiserie-gmeiner.com/en/stores/freiburg",
+          "credit": "Confiserie Gmeiner · www.confiserie-gmeiner.com",
+          "rights_status": "unverified",
+          "publish": true
+        }
+      ],
+      "placeholder": false
+    }
+  ],
+  "nav_title": {
+    "en": "Bakeries",
+    "de": "Bäckereien"
+  }
+}

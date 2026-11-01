@@ -1,0 +1,596 @@
+[
+  {
+    "place": "Förster Max",
+    "file": "/images/places/foerster-max-2.webp",
+    "source_page": "https://www.foerstermax.de/",
+    "original_image": "https://static.wixstatic.com/media/92c9a9_1bd70b74de144e13bf8e4cbd2a3fd289~mv2.jpg",
+    "credit": "Förster Max · www.foerstermax.de",
+    "rights": "unverified",
+    "retrieved": "2026-11-01"
+  },
+  {
+    "place": "Förster Max",
+    "file": "/images/places/foerster-max-1.webp",
+    "source_page": "https://www.foerstermax.de/",
+    "original_image": "https://static.wixstatic.com/media/92c9a9_b541abe6388a47baa90279fc2d1e6d69~mv2.jpeg",
+    "credit": "Förster Max · www.foerstermax.de",
+    "rights": "unverified",
+    "retrieved": "2026-11-01"
+  },
+  {
+    "place": "Der Scheinpflug",
+    "file": "/images/places/scheinpflug-7.webp",
+    "source_page": "https://www.schwarzwald-tourismus.info/attraktionen/scheinpflug-feines-eis-5a4d05589a",
+    "original_image": "https://mein.toubiz.de/api/v1/media/a03e20b5-03a6-43dd-a64d-de8892c36c50/view",
+    "credit": "Der Scheinpflug · www.schwarzwald-tourismus.info",
+    "rights": "unverified",
+    "retrieved": "2026-11-01"
+  },
+  {
+    "place": "Tibet Garten Café",
+    "file": "/images/places/tibet-garten-1.webp",
+    "source_page": "https://www.tibet-kailash-haus.de/angebot",
+    "original_image": "https://www.tibet-kailash-haus.de/images/TKH-Gartencafe-10.jpg",
+    "credit": "Tibet Garten Café · www.tibet-kailash-haus.de",
+    "rights": "unverified",
+    "retrieved": "2026-11-01"
+  },
+  {
+    "place": "Tibet Garten Café",
+    "file": "/images/places/tibet-garten-2.webp",
+    "source_page": "https://www.tibet-kailash-haus.de/angebot",
+    "original_image": "https://www.tibet-kailash-haus.de/images/TKH-Gartencafe-9.jpg",
+    "credit": "Tibet Garten Café · www.tibet-kailash-haus.de",
+    "rights": "unverified",
+    "retrieved": "2026-11-01"
+  },
+  {
+    "place": "Tibet Garten Café",
+    "file": "/images/places/tibet-garten-3.webp",
+    "source_page": "https://www.tibet-kailash-haus.de/angebot",
+    "original_image": "https://www.tibet-kailash-haus.de/images/TKH-Gartencafe-8.jpg",
+    "credit": "Tibet Garten Café · www.tibet-kailash-haus.de",
+    "rights": "unverified",
+    "retrieved": "2026-11-01"
+  },
+  {
+    "place": "Café Da Gianni",
+    "file": "/images/places/da-gianni-1.webp",
+    "source_page": "https://caffe-da-gianni.de/pages/cafe-freiburg",
+    "original_image": "https://caffe-da-gianni.de/cdn/shop/files/IMG_4144.jpg?v=1782805054&width=3840",
+    "credit": "Café Da Gianni · caffe-da-gianni.de",
+    "rights": "unverified",
+    "retrieved": "2026-11-01"
+  },
+  {
+    "place": "Café la Terrazza",
+    "file": "/images/places/la-terrazza-1.webp",
+    "source_page": "https://www.la-terrazza-freiburg.com/",
+    "original_image": "https://static.wixstatic.com/media/ac6a86_7680e0929f9f4e2aafc1ae6d0818a9c7~mv2.jpeg",
+    "credit": "Café la Terrazza · www.la-terrazza-freiburg.com",
+    "rights": "unverified",
+    "retrieved": "2026-11-01"
+  },
+  {
+    "place": "Café la Terrazza",
+    "file": "/images/places/la-terrazza-2.webp",
+    "source_page": "https://www.la-terrazza-freiburg.com/",
+    "original_image": "https://static.wixstatic.com/media/ac6a86_f1dbc7d8000640929e86089d9c5a210d~mv2.jpeg",
+    "credit": "Café la Terrazza · www.la-terrazza-freiburg.com",
+    "rights": "unverified",
+    "retrieved": "2026-11-01"
+  },
+  {
+    "place": "Café la Terrazza",
+    "file": "/images/places/la-terrazza-3.webp",
+    "source_page": "https://www.la-terrazza-freiburg.com/",
+    "original_image": "https://static.wixstatic.com/media/ac6a86_c00d6f17fa604dd3a87cebc34a61338f~mv2.jpg",
+    "credit": "Café la Terrazza · www.la-terrazza-freiburg.com",
+    "rights": "unverified",
+    "retrieved": "2026-11-01"
+  },
+  {
+    "place": "Café la Terrazza",
+    "file": "/images/places/la-terrazza-4.webp",
+    "source_page": "https://www.la-terrazza-freiburg.com/",
+    "original_image": "https://static.wixstatic.com/media/ac6a86_22bac3f90854461aa53545a588ebf370~mv2.jpg",
+    "credit": "Café la Terrazza · www.la-terrazza-freiburg.com",
+    "rights": "unverified",
+    "retrieved": "2026-11-01"
+  },
+  {
+    "place": "Café la Terrazza",
+    "file": "/images/places/la-terrazza-5.webp",
+    "source_page": "https://www.la-terrazza-freiburg.com/",
+    "original_image": "https://static.wixstatic.com/media/ac6a86_e342f1736b2b41a293129c9ce1239f83~mv2.jpg",
+    "credit": "Café la Terrazza · www.la-terrazza-freiburg.com",
+    "rights": "unverified",
+    "retrieved": "2026-11-01"
+  },
+  {
+    "place": "Café Parisienne",
+    "file": "/images/places/la-parisienne-1.webp",
+    "source_page": "https://www.macaronnerie.com/en",
+    "original_image": "https://www.macaronnerie.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F2.a4a3c982.jpg&w=3840&q=75",
+    "credit": "Café Parisienne · www.macaronnerie.com",
+    "rights": "unverified",
+    "retrieved": "2026-11-01"
+  },
+  {
+    "place": "Café Parisienne",
+    "file": "/images/places/la-parisienne-2.webp",
+    "source_page": "https://www.macaronnerie.com/en",
+    "original_image": "https://www.macaronnerie.com/_next/image?url=https%3A%2F%2Fauckafhdjqctavajffhm.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fmacaron%2Fblog%2FGMftbRAsKT&w=1080&q=75",
+    "credit": "Café Parisienne · www.macaronnerie.com",
+    "rights": "unverified",
+    "retrieved": "2026-11-01"
+  },
+  {
+    "place": "Café Parisienne",
+    "file": "/images/places/la-parisienne-3.webp",
+    "source_page": "https://www.macaronnerie.com/en",
+    "original_image": "https://www.macaronnerie.com/_next/image?url=https%3A%2F%2Fauckafhdjqctavajffhm.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fmacaron%2Fblog%2FSvLT2X3Fyu&w=1080&q=75",
+    "credit": "Café Parisienne · www.macaronnerie.com",
+    "rights": "unverified",
+    "retrieved": "2026-11-01"
+  },
+  {
+    "place": "Café Parisienne",
+    "file": "/images/places/la-parisienne-4.webp",
+    "source_page": "https://www.macaronnerie.com/en",
+    "original_image": "https://www.macaronnerie.com/_next/image?url=https%3A%2F%2Fauckafhdjqctavajffhm.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fmacaron%2Fblog%2FukcQES2JNU&w=1080&q=75",
+    "credit": "Café Parisienne · www.macaronnerie.com",
+    "rights": "unverified",
+    "retrieved": "2026-11-01"
+  },
+  {
+    "place": "Café Parisienne",
+    "file": "/images/places/la-parisienne-5.webp",
+    "source_page": "https://www.macaronnerie.com/en",
+    "original_image": "https://www.macaronnerie.com/_next/image?url=https%3A%2F%2Fauckafhdjqctavajffhm.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fmacaron%2Fblog%2FUyD6VcbXV8&w=1080&q=75",
+    "credit": "Café Parisienne · www.macaronnerie.com",
+    "rights": "unverified",
+    "retrieved": "2026-11-01"
+  },
+  {
+    "place": "Café Moltke",
+    "file": "/images/places/moltke-7.webp",
+    "source_page": "https://restaurantguru.com/Cafe-Moltke-Freiburg",
+    "original_image": "https://img05.restaurantguru.com/rb6b-Cafe-Moltke-exterior.jpg",
+    "credit": "Café Moltke · restaurantguru.com",
+    "rights": "unverified",
+    "retrieved": "2026-11-01"
+  },
+  {
+    "place": "Café Moltke",
+    "file": "/images/places/moltke-8.webp",
+    "source_page": "https://restaurantguru.com/Cafe-Moltke-Freiburg",
+    "original_image": "https://img05.restaurantguru.com/rb70-interior-Cafe-Moltke.jpg",
+    "credit": "Café Moltke · restaurantguru.com",
+    "rights": "unverified",
+    "retrieved": "2026-11-01"
+  },
+  {
+    "place": "Café Moltke",
+    "file": "/images/places/moltke-9.webp",
+    "source_page": "https://restaurantguru.com/Cafe-Moltke-Freiburg",
+    "original_image": "https://img05.restaurantguru.com/r5f7-Cafe-Moltke-Freiburg-im-Breisgau-coffee.jpg",
+    "credit": "Café Moltke · restaurantguru.com",
+    "rights": "unverified",
+    "retrieved": "2026-11-01"
+  },
+  {
+    "place": "Café Moltke",
+    "file": "/images/places/moltke-10.webp",
+    "source_page": "https://restaurantguru.com/Cafe-Moltke-Freiburg",
+    "original_image": "https://img05.restaurantguru.com/r17f-Cafe-Moltke-dessert.jpg",
+    "credit": "Café Moltke · restaurantguru.com",
+    "rights": "unverified",
+    "retrieved": "2026-11-01"
+  },
+  {
+    "place": "Café Moltke",
+    "file": "/images/places/moltke-11.webp",
+    "source_page": "https://restaurantguru.com/Cafe-Moltke-Freiburg",
+    "original_image": "https://img05.restaurantguru.com/re7b-Cafe-Moltke-Freiburg-im-Breisgau-meals.jpg",
+    "credit": "Café Moltke · restaurantguru.com",
+    "rights": "unverified",
+    "retrieved": "2026-11-01"
+  },
+  {
+    "place": "Café bächle",
+    "file": "/images/places/baechle-1.webp",
+    "source_page": "https://www.baechlefreiburg.de/uberuns",
+    "original_image": "https://cdn.prod.website-files.com/602e8f44d2a61ed4b69dda1c/606d650dc48a251a3d94754f_sectionimages-gallery4.jpg",
+    "credit": "Café bächle · www.baechlefreiburg.de",
+    "rights": "unverified",
+    "retrieved": "2026-11-01"
+  },
+  {
+    "place": "Café bächle",
+    "file": "/images/places/baechle-2.webp",
+    "source_page": "https://www.baechlefreiburg.de/uberuns",
+    "original_image": "https://cdn.prod.website-files.com/602e8f44d2a61ed4b69dda1c/606d650d862349e15d126101_sectionimages-gallery2.jpg",
+    "credit": "Café bächle · www.baechlefreiburg.de",
+    "rights": "unverified",
+    "retrieved": "2026-11-01"
+  },
+  {
+    "place": "Café bächle",
+    "file": "/images/places/baechle-3.webp",
+    "source_page": "https://www.baechlefreiburg.de/uberuns",
+    "original_image": "https://cdn.prod.website-files.com/602e8f44d2a61ed4b69dda1c/606d650c4a974a07f5e233e6_sectionimages-gallery3.jpg",
+    "credit": "Café bächle · www.baechlefreiburg.de",
+    "rights": "unverified",
+    "retrieved": "2026-11-01"
+  },
+  {
+    "place": "Café bächle",
+    "file": "/images/places/baechle-4.webp",
+    "source_page": "https://www.baechlefreiburg.de/uberuns",
+    "original_image": "https://cdn.prod.website-files.com/602e8f44d2a61ed4b69dda1c/68eb7f15fb0a3bc0664bad5c_Uberuns2.jpg",
+    "credit": "Café bächle · www.baechlefreiburg.de",
+    "rights": "unverified",
+    "retrieved": "2026-11-01"
+  },
+  {
+    "place": "Café bächle",
+    "file": "/images/places/baechle-5.webp",
+    "source_page": "https://www.baechlefreiburg.de/uberuns",
+    "original_image": "https://cdn.prod.website-files.com/602e8f44d2a61ed4b69dda1c/68eb8100c52c32b04a15ad1a_Uberuns3.jpg",
+    "credit": "Café bächle · www.baechlefreiburg.de",
+    "rights": "unverified",
+    "retrieved": "2026-11-01"
+  },
+  {
+    "place": "Sedan Café",
+    "file": "/images/places/sedan-7.webp",
+    "source_page": "https://restaurantguru.com/Sedan-Freiburg",
+    "original_image": "https://img05.restaurantguru.com/r37c-Sedan-Cafe-exterior-2024-02.jpg",
+    "credit": "Sedan Café · restaurantguru.com",
+    "rights": "unverified",
+    "retrieved": "2026-11-01"
+  },
+  {
+    "place": "Sedan Café",
+    "file": "/images/places/sedan-8.webp",
+    "source_page": "https://restaurantguru.com/Sedan-Freiburg",
+    "original_image": "https://img05.restaurantguru.com/rabe-Sedan-Cafe-interior.jpg",
+    "credit": "Sedan Café · restaurantguru.com",
+    "rights": "unverified",
+    "retrieved": "2026-11-01"
+  },
+  {
+    "place": "Sedan Café",
+    "file": "/images/places/sedan-9.webp",
+    "source_page": "https://restaurantguru.com/Sedan-Freiburg",
+    "original_image": "https://img05.restaurantguru.com/r6bf-Sedan-Cafe-beverage-2025-01.jpg",
+    "credit": "Sedan Café · restaurantguru.com",
+    "rights": "unverified",
+    "retrieved": "2026-11-01"
+  },
+  {
+    "place": "Sedan Café",
+    "file": "/images/places/sedan-10.webp",
+    "source_page": "https://restaurantguru.com/Sedan-Freiburg",
+    "original_image": "https://img05.restaurantguru.com/r92d-Sedan-Cafe-dessert.jpg",
+    "credit": "Sedan Café · restaurantguru.com",
+    "rights": "unverified",
+    "retrieved": "2026-11-01"
+  },
+  {
+    "place": "Sedan Café",
+    "file": "/images/places/sedan-11.webp",
+    "source_page": "https://restaurantguru.com/Sedan-Freiburg",
+    "original_image": "https://img05.restaurantguru.com/r7ee-Sedan-Cafe-food-2025-01.jpg",
+    "credit": "Sedan Café · restaurantguru.com",
+    "rights": "unverified",
+    "retrieved": "2026-11-01"
+  },
+  {
+    "place": "Café Auszeit",
+    "file": "/images/places/auszeit-1.webp",
+    "source_page": "https://www.cafeauszeit.com/",
+    "original_image": "https://www.cafeauszeit.com/wp-content/uploads/go-x/u/0e3cb6cf-71fe-4342-9560-e1737ac99ed9/l0,t333,w1334,h1334/image.jpg",
+    "credit": "Café Auszeit · www.cafeauszeit.com",
+    "rights": "unverified",
+    "retrieved": "2026-11-01"
+  },
+  {
+    "place": "Café Auszeit",
+    "file": "/images/places/auszeit-2.webp",
+    "source_page": "https://www.cafeauszeit.com/",
+    "original_image": "https://www.cafeauszeit.com/wp-content/uploads/go-x/u/35c8e9e8-991f-49bc-98c4-0b539f9f69cc/l0,t1151,w1500,h744/image-1366x678.jpg",
+    "credit": "Café Auszeit · www.cafeauszeit.com",
+    "rights": "unverified",
+    "retrieved": "2026-11-01"
+  },
+  {
+    "place": "Café Auszeit",
+    "file": "/images/places/auszeit-3.webp",
+    "source_page": "https://www.cafeauszeit.com/",
+    "original_image": "https://www.cafeauszeit.com/wp-content/uploads/go-x/u/f5c38bfc-61ba-4b00-8de0-3a3be21b5733/l0,t598,w1125,h558/image.jpg",
+    "credit": "Café Auszeit · www.cafeauszeit.com",
+    "rights": "unverified",
+    "retrieved": "2026-11-01"
+  },
+  {
+    "place": "Café KIEN",
+    "file": "/images/places/kien-1.webp",
+    "source_page": "https://www.kienfreiburg.de/",
+    "original_image": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=2800,h=2100,fit=crop/HF8ki63JnlUTo1DQ/kien_christophduepper_2026_0083-1-XIgcHj1YDdL72eOi.jpg",
+    "credit": "Café KIEN · Christoph Düpper (laut Dateiname)",
+    "rights": "unverified",
+    "retrieved": "2026-11-01"
+  },
+  {
+    "place": "Café KIEN",
+    "file": "/images/places/kien-2.webp",
+    "source_page": "https://www.kienfreiburg.de/",
+    "original_image": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=1920,h=2560,fit=crop/HF8ki63JnlUTo1DQ/kien_christophduepper_2026_0088-7Xs3zKJMlizGzx6M.jpg",
+    "credit": "Café KIEN · Christoph Düpper (laut Dateiname)",
+    "rights": "unverified",
+    "retrieved": "2026-11-01"
+  },
+  {
+    "place": "Café KIEN",
+    "file": "/images/places/kien-3.webp",
+    "source_page": "https://www.kienfreiburg.de/",
+    "original_image": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=768,h=1026,fit=crop/HF8ki63JnlUTo1DQ/kien_christophduepper_2026_0080-1-Q43sk9JcNfHfOP1B.jpg",
+    "credit": "Café KIEN · Christoph Düpper (laut Dateiname)",
+    "rights": "unverified",
+    "retrieved": "2026-11-01"
+  },
+  {
+    "place": "Café KIEN",
+    "file": "/images/places/kien-4.webp",
+    "source_page": "https://www.kienfreiburg.de/",
+    "original_image": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=768,h=1024,fit=crop/HF8ki63JnlUTo1DQ/kien_food_0062-fb3ECqeHGujlIhny.jpg",
+    "credit": "Café KIEN · www.kienfreiburg.de",
+    "rights": "unverified",
+    "retrieved": "2026-11-01"
+  },
+  {
+    "place": "Café KIEN",
+    "file": "/images/places/kien-5.webp",
+    "source_page": "https://www.kienfreiburg.de/",
+    "original_image": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=1024,h=1364,fit=crop/HF8ki63JnlUTo1DQ/kien_food_0006-h5DMqannWNZsEOBS.jpg",
+    "credit": "Café KIEN · www.kienfreiburg.de",
+    "rights": "unverified",
+    "retrieved": "2026-11-01"
+  },
+  {
+    "place": "Café Kolben",
+    "file": "/images/places/kolben-1.webp",
+    "source_page": "https://kolbenkaffee-freiburg.de/",
+    "original_image": "https://kolbenkaffee-freiburg.de/wp-content/uploads/kolben-kaffee-aussenbereich.jpg",
+    "credit": "Café Kolben · kolbenkaffee-freiburg.de",
+    "rights": "unverified",
+    "retrieved": "2026-11-01"
+  },
+  {
+    "place": "Café Kolben",
+    "file": "/images/places/kolben-2.webp",
+    "source_page": "https://kolbenkaffee-freiburg.de/",
+    "original_image": "https://kolbenkaffee-freiburg.de/wp-content/uploads/kolben-kaffee-innen.jpg",
+    "credit": "Café Kolben · kolbenkaffee-freiburg.de",
+    "rights": "unverified",
+    "retrieved": "2026-11-01"
+  },
+  {
+    "place": "Café Kolben",
+    "file": "/images/places/kolben-3.webp",
+    "source_page": "https://kolbenkaffee-freiburg.de/",
+    "original_image": "https://kolbenkaffee-freiburg.de/wp-content/uploads/kolben-kaffee-kaffee-herz.jpg",
+    "credit": "Café Kolben · kolbenkaffee-freiburg.de",
+    "rights": "unverified",
+    "retrieved": "2026-11-01"
+  },
+  {
+    "place": "Café Kolben",
+    "file": "/images/places/kolben-4.webp",
+    "source_page": "https://kolbenkaffee-freiburg.de/",
+    "original_image": "https://kolbenkaffee-freiburg.de/wp-content/uploads/kolben-kaffee-konditorei.jpg",
+    "credit": "Café Kolben · kolbenkaffee-freiburg.de",
+    "rights": "unverified",
+    "retrieved": "2026-11-01"
+  },
+  {
+    "place": "Café Kolben",
+    "file": "/images/places/kolben-5.webp",
+    "source_page": "https://kolbenkaffee-freiburg.de/",
+    "original_image": "https://kolbenkaffee-freiburg.de/wp-content/uploads/kolben-kaffee-patisserie.jpg",
+    "credit": "Café Kolben · kolbenkaffee-freiburg.de",
+    "rights": "unverified",
+    "retrieved": "2026-11-01"
+  },
+  {
+    "place": "JC Café",
+    "file": "/images/places/jc-7.webp",
+    "source_page": "https://restaurantguru.com/JC-Freiburg",
+    "original_image": "https://img05.restaurantguru.com/rf50-JC-Cafe-exterior-2025-09.jpg",
+    "credit": "JC Café · restaurantguru.com",
+    "rights": "unverified",
+    "retrieved": "2026-11-01"
+  },
+  {
+    "place": "JC Café",
+    "file": "/images/places/jc-8.webp",
+    "source_page": "https://restaurantguru.com/JC-Freiburg",
+    "original_image": "https://img05.restaurantguru.com/ra9b-JC-Cafe-design-2025-09-1.jpg",
+    "credit": "JC Café · restaurantguru.com",
+    "rights": "unverified",
+    "retrieved": "2026-11-01"
+  },
+  {
+    "place": "JC Café",
+    "file": "/images/places/jc-9.webp",
+    "source_page": "https://restaurantguru.com/JC-Freiburg",
+    "original_image": "https://img05.restaurantguru.com/r671-coffee-JC-Cafe-2025-09.jpg",
+    "credit": "JC Café · restaurantguru.com",
+    "rights": "unverified",
+    "retrieved": "2026-11-01"
+  },
+  {
+    "place": "JC Café",
+    "file": "/images/places/jc-10.webp",
+    "source_page": "https://restaurantguru.com/JC-Freiburg",
+    "original_image": "https://img05.restaurantguru.com/r1e2-JC-Cafe-cheesecake.jpg",
+    "credit": "JC Café · restaurantguru.com",
+    "rights": "unverified",
+    "retrieved": "2026-11-01"
+  },
+  {
+    "place": "JC Café",
+    "file": "/images/places/jc-11.webp",
+    "source_page": "https://restaurantguru.com/JC-Freiburg",
+    "original_image": "https://img05.restaurantguru.com/r340-JC-Cafe-dishes-2025-09.jpg",
+    "credit": "JC Café · restaurantguru.com",
+    "rights": "unverified",
+    "retrieved": "2026-11-01"
+  },
+  {
+    "place": "Brotbruder",
+    "file": "/images/places/brotbruder-1.webp",
+    "source_page": "https://blendwerk-freiburg.de/2024/02/05/fotos-fuer-handwerk-magazin-brotbruder-freiburg/",
+    "original_image": "https://blendwerk-freiburg.de/wp-content/uploads/2024/02/hm-1-23_Brotbruder-Freiburg-02-1024x683.jpg",
+    "credit": "Blendwerk Freiburg · Fotografenquelle; Freigabe ausstehend",
+    "rights": "unverified",
+    "retrieved": "2026-11-01"
+  },
+  {
+    "place": "Brotbruder",
+    "file": "/images/places/brotbruder-2.webp",
+    "source_page": "https://blendwerk-freiburg.de/2024/02/05/fotos-fuer-handwerk-magazin-brotbruder-freiburg/",
+    "original_image": "https://blendwerk-freiburg.de/wp-content/uploads/2024/02/hm-1-23_Brotbruder-Freiburg-01-1024x684.jpg",
+    "credit": "Blendwerk Freiburg · Fotografenquelle; Freigabe ausstehend",
+    "rights": "unverified",
+    "retrieved": "2026-11-01"
+  },
+  {
+    "place": "Brotbruder",
+    "file": "/images/places/brotbruder-3.webp",
+    "source_page": "https://blendwerk-freiburg.de/2024/02/05/fotos-fuer-handwerk-magazin-brotbruder-freiburg/",
+    "original_image": "https://blendwerk-freiburg.de/wp-content/uploads/2024/02/hm-1-23_Brotbruder-Freiburg-03-1024x684.jpg",
+    "credit": "Blendwerk Freiburg · Fotografenquelle; Freigabe ausstehend",
+    "rights": "unverified",
+    "retrieved": "2026-11-01"
+  },
+  {
+    "place": "Zeit für Brot",
+    "file": "/images/places/zeit-fuer-brot-1.webp",
+    "source_page": "https://zeitfuerbrot.com/baeckereien",
+    "original_image": "https://zeitfuerbrot.com/img/containers/assets/251215_zfb_dsc09142.jpg/5b4b07186e8419c282a6f53ac1a32225/251215_zfb_dsc09142.jpg",
+    "credit": "Zeit für Brot · zeitfuerbrot.com",
+    "rights": "unverified",
+    "retrieved": "2026-11-01"
+  },
+  {
+    "place": "Zeit für Brot",
+    "file": "/images/places/zeit-fuer-brot-2.webp",
+    "source_page": "https://zeitfuerbrot.com/baeckereien",
+    "original_image": "https://zeitfuerbrot.com/img/containers/assets/251215_zfb_dsc08401.jpg/a5cb4d25fb415f7618c37debedc394e5/251215_zfb_dsc08401.jpg",
+    "credit": "Zeit für Brot · zeitfuerbrot.com",
+    "rights": "unverified",
+    "retrieved": "2026-11-01"
+  },
+  {
+    "place": "Zeit für Brot",
+    "file": "/images/places/zeit-fuer-brot-3.webp",
+    "source_page": "https://zeitfuerbrot.com/baeckereien",
+    "original_image": "https://zeitfuerbrot.com/img/containers/assets/251215_zfb_dsc08367.jpg/11c66b3def080bbfe829a37d67a4986c/251215_zfb_dsc08367.jpg",
+    "credit": "Zeit für Brot · zeitfuerbrot.com",
+    "rights": "unverified",
+    "retrieved": "2026-11-01"
+  },
+  {
+    "place": "Da Quirino, Italian Bakery",
+    "file": "/images/places/da-quirino-1.webp",
+    "source_page": "https://deutschlands-experten.de/baeckerei/freiburg-im-breisgau/da-quirino-backstueble-freiburg-im-breisgau/",
+    "original_image": "https://deutschlands-experten.de/wp-content/cache/bilder/7d/7d03d43db71a1809c98f33e4f5720024.webp",
+    "credit": "Da Quirino, Italian Bakery · deutschlands-experten.de",
+    "rights": "unverified",
+    "retrieved": "2026-11-01"
+  },
+  {
+    "place": "La Baguette, French Bakery",
+    "file": "/images/places/la-baguette-7.webp",
+    "source_page": "https://restaurantguru.com/La-baguette-Freiburg",
+    "original_image": "https://img05.restaurantguru.com/r57b-facade-La-Baguette-2024-01-1.jpg",
+    "credit": "La Baguette, French Bakery · restaurantguru.com",
+    "rights": "unverified",
+    "retrieved": "2026-11-01"
+  },
+  {
+    "place": "La Baguette, French Bakery",
+    "file": "/images/places/la-baguette-8.webp",
+    "source_page": "https://restaurantguru.com/La-baguette-Freiburg",
+    "original_image": "https://img05.restaurantguru.com/r520-design-La-Baguette-2024-01-5.jpg",
+    "credit": "La Baguette, French Bakery · restaurantguru.com",
+    "rights": "unverified",
+    "retrieved": "2026-11-01"
+  },
+  {
+    "place": "La Baguette, French Bakery",
+    "file": "/images/places/la-baguette-9.webp",
+    "source_page": "https://restaurantguru.com/La-baguette-Freiburg",
+    "original_image": "https://img05.restaurantguru.com/r522-La-Baguette-meals-2025-07-5.jpg",
+    "credit": "La Baguette, French Bakery · restaurantguru.com",
+    "rights": "unverified",
+    "retrieved": "2026-11-01"
+  },
+  {
+    "place": "La Baguette, French Bakery",
+    "file": "/images/places/la-baguette-10.webp",
+    "source_page": "https://restaurantguru.com/La-baguette-Freiburg",
+    "original_image": "https://img05.restaurantguru.com/r127-dessert-La-Baguette-2022-10-58.jpg",
+    "credit": "La Baguette, French Bakery · restaurantguru.com",
+    "rights": "unverified",
+    "retrieved": "2026-11-01"
+  },
+  {
+    "place": "La Baguette, French Bakery",
+    "file": "/images/places/la-baguette-11.webp",
+    "source_page": "https://restaurantguru.com/La-baguette-Freiburg",
+    "original_image": "https://img05.restaurantguru.com/raea-dishes-La-baguette-2021-09-9.jpg",
+    "credit": "La Baguette, French Bakery · restaurantguru.com",
+    "rights": "unverified",
+    "retrieved": "2026-11-01"
+  },
+  {
+    "place": "Café Confiserie Graf Anton",
+    "file": "/images/places/graf-anton-1.webp",
+    "source_page": "https://www.colombi.de/en/dining",
+    "original_image": "https://www.colombi.de/Colombi/Gastronomie/Graf%20Anton/163/image-thumb__163__feature/Caf%C3%A9%20Graf%20Anton%20-%20SKUB.5d0d64d5.jpg",
+    "credit": "Café Confiserie Graf Anton · www.colombi.de",
+    "rights": "unverified",
+    "retrieved": "2026-11-01"
+  },
+  {
+    "place": "Café Confiserie Graf Anton",
+    "file": "/images/places/graf-anton-2.webp",
+    "source_page": "https://www.colombi.de/en/dining",
+    "original_image": "https://www.colombi.de/Colombi/Gastronomie/Graf%20Anton/164/image-thumb__164__feature/Graf%20Anton%20Kuchenauwahl%201_Heidi%20Hintereck.ad4fcffc.png",
+    "credit": "Colombi Hotel · Heidi Hintereck (laut Dateiname)",
+    "rights": "unverified",
+    "retrieved": "2026-11-01"
+  },
+  {
+    "place": "Café Confiserie Graf Anton",
+    "file": "/images/places/graf-anton-3.webp",
+    "source_page": "https://www.colombi.de/en/dining",
+    "original_image": "https://www.colombi.de/Colombi/Gastronomie/Graf%20Anton/165/image-thumb__165__feature_auto_e6f991d72d34ccb4a96462b61b3d04ac/Graf%20Anton%20Kuchenauwahl%202_Heidi%20Hintereck.4d4c9a1e.png",
+    "credit": "Colombi Hotel · Heidi Hintereck (laut Dateiname)",
+    "rights": "unverified",
+    "retrieved": "2026-11-01"
+  },
+  {
+    "place": "Confiserie Gmeiner",
+    "file": "/images/places/gmeiner-1.webp",
+    "source_page": "https://www.confiserie-gmeiner.com/en/stores/freiburg",
+    "original_image": "https://www.confiserie-gmeiner.com/images/stores/cafe-freiburg.webp",
+    "credit": "Confiserie Gmeiner · www.confiserie-gmeiner.com",
+    "rights": "unverified",
+    "retrieved": "2026-11-01"
+  }
+]

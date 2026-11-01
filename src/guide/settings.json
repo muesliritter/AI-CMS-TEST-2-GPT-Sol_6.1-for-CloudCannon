@@ -1,0 +1,41 @@
+{
+  "name": "Freiburg for Marlene",
+  "site_url": "",
+  "hero": {
+    "en": "A city to fall in love with. One little place at a time.",
+    "de": "Eine Stadt zum Verlieben. Ein Lieblingsort nach dem anderen."
+  },
+  "description": {
+    "en": "A personal collection of lovely places in Freiburg. Good coffee, beautiful corners, and a few things worth sharing.",
+    "de": "Eine persönliche Sammlung schöner Orte in Freiburg. Guter Kaffee, besondere Ecken und ein paar Dinge, die man teilen möchte."
+  },
+  "note": {
+    "en": "A personal guide, made for Marlene. Ratings are personal coffee scores from the original list, not Google reviews.",
+    "de": "Ein persönlicher Guide für Marlene. Die Bewertungen sind persönliche Kaffeenoten aus der ursprünglichen Liste, keine Google-Bewertungen."
+  },
+  "home_heading": {
+    "en": "Lovely places.",
+    "de": "Die schönsten Orte."
+  },
+  "home_heading_line_two": {
+    "en": "Little",
+    "de": "Die kleinen"
+  },
+  "home_heading_emphasis": {
+    "en": "moments.",
+    "de": "Momente."
+  },
+  "hero_image": "/images/places/da-gianni-1.webp",
+  "hero_image_alt": {
+    "en": "Cappuccino at Caffè da Gianni",
+    "de": "Cappuccino bei Caffè da Gianni"
+  },
+  "note_heading": {
+    "en": "A very personal little guide.",
+    "de": "Ein sehr persönlicher kleiner Guide."
+  },
+  "note_text": {
+    "en": "For a really good coffee, a slice of cake, and the pleasure of discovering a city one corner at a time. These are the places to come back to.",
+    "de": "Für einen richtig guten Kaffee, ein Stück Kuchen und die Freude, eine Stadt Stück für Stück zu entdecken. Hier stehen die Orte, an die man gerne zurückkommt."
+  }
+}

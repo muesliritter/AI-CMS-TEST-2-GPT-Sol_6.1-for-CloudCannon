@@ -1,0 +1,38 @@
+{
+  "logoSource": "/src/assets/images/component-docs/acs-logo.svg",
+  "logoAlternateSource": "/src/assets/images/component-docs/acs-logo-dark.svg",
+  "logoAlt": "Astro Component Starter",
+  "links": [
+    {
+      "name": "Home",
+      "path": "/"
+    },
+    {
+      "name": "Why",
+      "path": "/why/"
+    },
+    {
+      "name": "Components",
+      "path": "/component-docs/"
+    },
+    {
+      "name": "Blog",
+      "path": "/blog/"
+    }
+  ],
+  "socials": [
+    {
+      "icon": "social/github",
+      "link": "https://github.com"
+    },
+    {
+      "icon": "social/x",
+      "link": "https://x.com"
+    },
+    {
+      "icon": "social/linkedin",
+      "link": "https://linkedin.com"
+    }
+  ],
+  "footerText": "© 2026 All rights reserved."
+}

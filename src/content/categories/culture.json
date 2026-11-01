@@ -1,0 +1,105 @@
+{
+  "slug": "culture",
+  "title": {
+    "en": "Culture",
+    "de": "Kultur"
+  },
+  "intro": {
+    "en": "Good things are on their way. This chapter is still being written.",
+    "de": "Hier entsteht etwas Schönes. Dieses Kapitel wird noch geschrieben."
+  },
+  "eyebrow": {
+    "en": "The little black book",
+    "de": "Das kleine Lieblingsbuch"
+  },
+  "status": "coming-soon",
+  "order": 4,
+  "rating_criteria": [
+    {
+      "id": "experience",
+      "label": {
+        "en": "Experience",
+        "de": "Erlebnis"
+      },
+      "kind": "score",
+      "maximum": 5
+    },
+    {
+      "id": "access",
+      "label": {
+        "en": "Accessibility",
+        "de": "Zugänglichkeit"
+      },
+      "kind": "text",
+      "maximum": 5
+    },
+    {
+      "id": "value",
+      "label": {
+        "en": "Value",
+        "de": "Preis-Leistung"
+      },
+      "kind": "score",
+      "maximum": 5
+    }
+  ],
+  "tags": [
+    {
+      "id": "favourite",
+      "label": {
+        "en": "Favourite",
+        "de": "Lieblingsort"
+      }
+    }
+  ],
+  "sections": [
+    {
+      "_component": "guide/place",
+      "id": "example-culture",
+      "name": "Something to be curious about",
+      "quarter": {
+        "en": "Coming soon",
+        "de": "Demnächst"
+      },
+      "specialty": {
+        "en": "A space for the next recommendation.",
+        "de": "Platz für die nächste Empfehlung."
+      },
+      "tags": [],
+      "ratings": [
+        {
+          "criterion": "experience",
+          "score": null,
+          "text": {
+            "en": "To be discovered",
+            "de": "Wird noch entdeckt"
+          }
+        },
+        {
+          "criterion": "access",
+          "score": null,
+          "text": {
+            "en": "To be discovered",
+            "de": "Wird noch entdeckt"
+          }
+        },
+        {
+          "criterion": "value",
+          "score": null,
+          "text": {
+            "en": "To be discovered",
+            "de": "Wird noch entdeckt"
+          }
+        }
+      ],
+      "website": "",
+      "maps": "",
+      "gallery": [],
+      "placeholder": true
+    }
+  ],
+  "nav_title": {
+    "en": "Culture",
+    "de": "Kultur"
+  }
+}

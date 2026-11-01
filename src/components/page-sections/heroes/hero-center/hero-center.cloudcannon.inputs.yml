@@ -1,0 +1,26 @@
+eyebrow:
+  type: text
+  comment: Optional label displayed above the hero heading.
+heading:
+  type: text
+  comment: Main heading text for the hero.
+subtext:
+  type: markdown
+  comment: Supporting subtext displayed beneath the heading.
+  options:
+    blockquote: false
+    bold: true
+    format:
+    italic: true
+    link: true
+    strike: false
+    subscript: true
+    superscript: true
+    underline: false
+    bulletedlist: false
+    numberedlist: false
+buttonSections:
+  type: array
+  comment: Button blocks for calls to action.
+  options:
+    structures: _structures.buttonSections

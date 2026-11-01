@@ -1,0 +1,7 @@
+---
+import Guide from '../guide/Guide.astro';
+import {getCategories} from '../guide/data';
+export async function getStaticPaths(){ return (await getCategories()).map(c=>({params:{category:c.data.slug},props:{category:c}})); }
+const {category}=Astro.props;
+---
+<Guide lang="en" category={category} />

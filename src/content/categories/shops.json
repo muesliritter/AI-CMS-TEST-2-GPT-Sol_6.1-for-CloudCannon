@@ -1,0 +1,105 @@
+{
+  "slug": "shops",
+  "title": {
+    "en": "Shops",
+    "de": "Läden"
+  },
+  "intro": {
+    "en": "Good things are on their way. This chapter is still being written.",
+    "de": "Hier entsteht etwas Schönes. Dieses Kapitel wird noch geschrieben."
+  },
+  "eyebrow": {
+    "en": "The little black book",
+    "de": "Das kleine Lieblingsbuch"
+  },
+  "status": "coming-soon",
+  "order": 3,
+  "rating_criteria": [
+    {
+      "id": "selection",
+      "label": {
+        "en": "Selection",
+        "de": "Sortiment"
+      },
+      "kind": "score",
+      "maximum": 5
+    },
+    {
+      "id": "service",
+      "label": {
+        "en": "Advice",
+        "de": "Beratung"
+      },
+      "kind": "score",
+      "maximum": 5
+    },
+    {
+      "id": "feeling",
+      "label": {
+        "en": "The feeling",
+        "de": "Atmosphäre"
+      },
+      "kind": "text",
+      "maximum": 5
+    }
+  ],
+  "tags": [
+    {
+      "id": "favourite",
+      "label": {
+        "en": "Favourite",
+        "de": "Lieblingsort"
+      }
+    }
+  ],
+  "sections": [
+    {
+      "_component": "guide/place",
+      "id": "example-shops",
+      "name": "A little local discovery",
+      "quarter": {
+        "en": "Coming soon",
+        "de": "Demnächst"
+      },
+      "specialty": {
+        "en": "A space for the next recommendation.",
+        "de": "Platz für die nächste Empfehlung."
+      },
+      "tags": [],
+      "ratings": [
+        {
+          "criterion": "selection",
+          "score": null,
+          "text": {
+            "en": "To be discovered",
+            "de": "Wird noch entdeckt"
+          }
+        },
+        {
+          "criterion": "service",
+          "score": null,
+          "text": {
+            "en": "To be discovered",
+            "de": "Wird noch entdeckt"
+          }
+        },
+        {
+          "criterion": "feeling",
+          "score": null,
+          "text": {
+            "en": "To be discovered",
+            "de": "Wird noch entdeckt"
+          }
+        }
+      ],
+      "website": "",
+      "maps": "",
+      "gallery": [],
+      "placeholder": true
+    }
+  ],
+  "nav_title": {
+    "en": "Shops",
+    "de": "Läden"
+  }
+}
