@@ -252,6 +252,30 @@
       "maps": "https://www.google.com/maps/search/?api=1&query=Da+Quirino+Backstueble+Guntramstrasse+43+Freiburg",
       "gallery": [
         {
+          "image": "/images/places/scr-20261101-spfj.jpeg",
+          "alt": {
+            "en": "",
+            "de": ""
+          },
+          "kind": "other",
+          "source_url": "https://www.instagram.com/backstuble/",
+          "credit": "",
+          "rights_status": "unverified",
+          "publish": true
+        },
+        {
+          "image": "/images/places/scr-20261101-spkw.jpeg",
+          "alt": {
+            "en": "",
+            "de": ""
+          },
+          "kind": "other",
+          "source_url": "",
+          "credit": "",
+          "rights_status": "unverified",
+          "publish": true
+        },
+        {
           "image": "/images/places/da-quirino-1.webp",
           "alt": {
             "en": "Inside Da Quirino Backstüble",
