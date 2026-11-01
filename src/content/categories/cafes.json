@@ -1,5 +1,10 @@
 {
+  "_schema": "default",
   "slug": "cafes",
+  "nav_title": {
+    "en": "Cafés",
+    "de": "Cafés"
+  },
   "title": {
     "en": "Coffee, cake & a little pause.",
     "de": "Kaffee, Kuchen & eine kleine Pause."
@@ -338,7 +343,7 @@
       "ratings": [
         {
           "criterion": "coffee",
-          "score": 4.0,
+          "score": 4,
           "text": {
             "en": "",
             "de": ""
@@ -1279,18 +1284,6 @@
       "maps": "https://www.google.com/maps/search/?api=1&query=Cafe+Kien+Augustinerplatz+3+Freiburg",
       "gallery": [
         {
-          "image": "/images/places/kien-1.webp",
-          "alt": {
-            "en": "The interior of Café KIEN",
-            "de": "Innenraum von Café KIEN"
-          },
-          "kind": "interior",
-          "source_url": "https://www.kienfreiburg.de/",
-          "credit": "Café KIEN · Christoph Düpper (laut Dateiname)",
-          "rights_status": "unverified",
-          "publish": true
-        },
-        {
           "image": "/images/places/kien-2.webp",
           "alt": {
             "en": "Vaulted room at Café KIEN",
@@ -1527,18 +1520,6 @@
       "maps": "https://www.google.com/maps/search/?api=1&query=JC+Cafe+Klarastrasse+70+Freiburg",
       "gallery": [
         {
-          "image": "/images/places/jc-7.webp",
-          "alt": {
-            "en": "Outside JC Café",
-            "de": "Außenansicht: JC Café"
-          },
-          "kind": "exterior",
-          "source_url": "https://restaurantguru.com/JC-Freiburg",
-          "credit": "JC Café · restaurantguru.com",
-          "rights_status": "unverified",
-          "publish": true
-        },
-        {
           "image": "/images/places/jc-8.webp",
           "alt": {
             "en": "Inside JC Café",
@@ -1585,13 +1566,21 @@
           "credit": "JC Café · restaurantguru.com",
           "rights_status": "unverified",
           "publish": true
+        },
+        {
+          "image": "/images/places/jc-7.webp",
+          "alt": {
+            "en": "Outside JC Café",
+            "de": "Außenansicht: JC Café"
+          },
+          "kind": "exterior",
+          "source_url": "https://restaurantguru.com/JC-Freiburg",
+          "credit": "JC Café · restaurantguru.com",
+          "rights_status": "unverified",
+          "publish": true
         }
       ],
       "placeholder": false
     }
-  ],
-  "nav_title": {
-    "en": "Cafés",
-    "de": "Cafés"
-  }
+  ]
 }
