@@ -332,6 +332,30 @@
           "credit": "Der Scheinpflug · www.schwarzwald-tourismus.info",
           "rights_status": "unverified",
           "publish": true
+        },
+        {
+          "image": "/images/places/scr-20261101-qyqo.jpeg",
+          "alt": {
+            "en": "",
+            "de": ""
+          },
+          "kind": "other",
+          "source_url": "",
+          "credit": "",
+          "rights_status": "unverified",
+          "publish": true
+        },
+        {
+          "image": "/images/places/affogato.jpg",
+          "alt": {
+            "en": "affogato",
+            "de": "affogato"
+          },
+          "kind": "other",
+          "source_url": "",
+          "credit": "",
+          "rights_status": "unverified",
+          "publish": true
         }
       ],
       "placeholder": false

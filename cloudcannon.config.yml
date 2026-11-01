@@ -1,31 +1,40 @@
 source: /
 paths:
-  static: public
   uploads: public/images/places
+  uploads_use_relative_path: false
+  static: public
 collections_config:
   categories:
     path: src/content/categories
     glob:
       - '*.json'
-    name: Chapters & places
+    name: Location Categories
     icon: local_cafe
     url: /{slug}/
-    _enabled_editors:
-      - data
+    disable_url: false
+    include_developer_files: false
     preview:
       text:
         - key: nav_title.en
       subtext:
         - key: status
-    schemas:
-      default:
-        name: New category
-        path: .cloudcannon/schemas/category.json
-        remove_extra_inputs: false
+    _enabled_editors:
+      - data
     add_options:
       - name: Add category
-        schema: default
         icon: add_circle
+        schema: default
+    disable_add: false
+    disable_add_folder: false
+    disable_file_actions: false
+    schemas:
+      default:
+        path: .cloudcannon/schemas/category.json
+        reorder_inputs: true
+        hide_extra_inputs: false
+        remove_empty_inputs: false
+        remove_extra_inputs: false
+        name: New category
   settings:
     path: src/guide
     glob:
@@ -33,8 +42,12 @@ collections_config:
     name: Site settings
     icon: settings
     disable_url: true
+    include_developer_files: false
     _enabled_editors:
       - data
+    disable_add: false
+    disable_add_folder: false
+    disable_file_actions: false
 collection_groups:
   - heading: Freiburg for Marlene
     collections:
@@ -43,135 +56,223 @@ collection_groups:
 _inputs:
   slug:
     type: text
-    comment: >-
-      Unique route, lowercase letters, numbers and hyphens. Use a new filename AND a unique slug when adding a
-      category.
+    comment: Unique route, lowercase letters, numbers and hyphens. Use a new
+      filename AND a unique slug when adding a category.
+    cascade: true
   en:
     type: textarea
     label: English
+    cascade: true
   de:
     type: textarea
     label: Deutsch
+    cascade: true
   status:
     type: select
     options:
+      allow_empty: true
       values:
         - active
         - coming-soon
+      required: false
+    cascade: true
   order:
     type: number
     comment: Navigation order, lowest first.
+    cascade: true
   nav_title:
     type: object
     label: Navigation title · EN / DE
+    cascade: true
   title:
     type: object
     label: Page heading · EN / DE
+    cascade: true
   intro:
     type: object
     label: Introduction · EN / DE
+    cascade: true
   sections:
     type: array
-    label: Places / sections
-    comment: Add, reorder or remove individual places. Each contains both languages and its own gallery.
     options:
       structures: _structures.places
+      disable_add: false
+      disable_remove: false
+      disable_reorder: false
+      required: false
+    label: Places / sections
+    comment: Add, reorder or remove individual places. Each contains both languages
+      and its own gallery.
+    cascade: true
   rating_criteria:
     type: array
-    label: Category rating scheme
-    comment: >-
-      Labels, type and maximum shared by every place in this category. IDs must match ratings. Unrated scores
-      remain blank.
     options:
       structures: _structures.criteria
+      disable_add: false
+      disable_remove: false
+      disable_reorder: false
+      required: false
+    label: Category rating scheme
+    comment: Labels, type and maximum shared by every place in this category. IDs
+      must match ratings. Unrated scores remain blank.
+    cascade: true
   tags:
     type: array
-    label: Category tags
-    comment: Create a stable ID and translated labels. Assign these IDs to the individual places.
     options:
       structures: _structures.tagDefinitions
+      disable_add: false
+      disable_remove: false
+      disable_reorder: false
+      required: false
+    label: Category tags
+    comment: Create a stable ID and translated labels. Assign these IDs to the
+      individual places.
+    cascade: true
   sections[*].tags:
     type: array
     label: Assigned tag IDs
-    comment: Use IDs defined under Category tags above. Multiple tags combine with AND in the public filter.
+    comment: Use IDs defined under Category tags above. Multiple tags combine with
+      AND in the public filter.
+    cascade: true
   sections[*].tags[*]:
     type: text
     label: Tag ID
+    cascade: true
   ratings:
     type: array
-    label: Ratings / observations
-    comment: Match criterion to an ID from the category rating scheme. Leave score empty when not rated.
     options:
       structures: _structures.ratings
+      disable_add: false
+      disable_remove: false
+      disable_reorder: false
+      required: false
+    label: Ratings / observations
+    comment: Match criterion to an ID from the category rating scheme. Leave score
+      empty when not rated.
+    cascade: true
   gallery:
     type: array
-    label: Photo gallery
-    comment: 'Order: exterior, interior, then coffee / food where available. First image is the main image.'
     options:
       structures: _structures.photos
+      disable_add: false
+      disable_remove: false
+      disable_reorder: false
+      required: false
+    label: Photo gallery
+    comment: 'Order: exterior, interior, then coffee / food where available. First
+      image is the main image.'
+    cascade: true
   image:
     type: image
     options:
       paths:
         uploads: public/images/places
+        uploads_use_relative_path: false
+      disable_upload_file: false
+      disable_direct_input: false
+      disable_upload_file_in_file_browser: false
+      resize_style: contain
+      expandable: false
+      prevent_resize_existing_files: false
+      required: false
+    cascade: true
   source_url:
     type: url
     label: Source page
+    cascade: true
   website:
     type: url
+    cascade: true
   maps:
     type: url
+    cascade: true
   score:
     type: number
     comment: Personal score. Blank means not rated. Maximum is set at category level.
+    cascade: true
   maximum:
     type: number
+    cascade: true
   criterion:
     type: text
     comment: ID from this category’s rating scheme.
+    cascade: true
   kind:
     type: select
     options:
+      allow_empty: true
       values:
         - text
         - score
+      required: false
+    cascade: true
   placeholder:
     type: switch
     label: Example / placeholder entry
+    cascade: true
   publish:
     type: switch
     label: Show photo
+    cascade: true
   rights_status:
     type: select
-    label: Image rights
     options:
+      allow_empty: true
       values:
         - unverified
         - cleared
         - owned
+      required: false
+    label: Image rights
+    cascade: true
   credit:
     type: text
     label: Photographer / source credit
+    cascade: true
   site_url:
     type: url
-    comment: Set to your live HTTPS domain for canonical and EN/DE alternate links. No trailing slash.
+    comment: Set to your live HTTPS domain for canonical and EN/DE alternate links.
+      No trailing slash.
+    cascade: true
   name:
     type: text
+    cascade: true
   _component:
     type: text
     hidden: true
+    cascade: true
   hero_image:
     type: image
-    label: Homepage main image
     options:
       paths:
         uploads: public/images/places
+        uploads_use_relative_path: false
+      disable_upload_file: false
+      disable_direct_input: false
+      disable_upload_file_in_file_browser: false
+      resize_style: contain
+      expandable: false
+      prevent_resize_existing_files: false
+      required: false
+    label: Homepage main image
+    cascade: true
 _structures:
   places:
+    style: select
     id_key: _component
     values:
-      - label: Place · EN / DE
+      - default: false
         icon: place
+        label: Place · EN / DE
+        preview:
+          text:
+            - key: name
+          subtext:
+            - key: quarter.en
+          image:
+            - key: gallery.0.image
+        place_groups_below: false
+        tabbed: false
         value:
           _component: guide/place
           id: new-place
@@ -188,16 +289,13 @@ _structures:
           maps: ''
           gallery: []
           placeholder: false
-        preview:
-          text:
-            - key: name
-          subtext:
-            - key: quarter.en
-          image:
-            - key: gallery.0.image
   criteria:
+    style: select
     values:
-      - label: Rating criterion
+      - default: false
+        label: Rating criterion
+        place_groups_below: false
+        tabbed: false
         value:
           id: experience
           label:
@@ -206,31 +304,40 @@ _structures:
           kind: text
           maximum: 5
   ratings:
+    style: select
     values:
-      - label: Rating / note
-        value:
-          criterion: ''
-          score: null
-          text:
-            en: ''
-            de: ''
+      - default: false
+        label: Rating / note
         preview:
           text:
             - key: criterion
-  tagDefinitions:
-    values:
-      - label: Tag
+        place_groups_below: false
+        tabbed: false
         value:
-          id: new-tag
-          label:
-            en: New tag
-            de: Neuer Tag
+          criterion: ''
+          score:
+          text:
+            en: ''
+            de: ''
+  tagDefinitions:
+    style: select
+    values:
+      - default: false
+        label: Tag
         preview:
           text:
             - key: label.en
           subtext:
             - key: id
+        place_groups_below: false
+        tabbed: false
+        value:
+          id: new-tag
+          label:
+            en: New tag
+            de: Neuer Tag
   photos:
+    style: select
     values:
       - label: Photo
         value:
@@ -247,6 +354,7 @@ _structures:
           kind:
             type: select
             options:
+              allow_empty: true
               values:
                 - exterior
                 - interior
@@ -254,8 +362,11 @@ _structures:
                 - food
                 - garden
                 - other
+              required: false
+            cascade: true
         preview:
           text:
             - key: alt.en
           image:
             - key: image
+timezone: Etc/UTC

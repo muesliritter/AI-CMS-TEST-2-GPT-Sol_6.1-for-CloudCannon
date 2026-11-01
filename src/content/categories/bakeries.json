@@ -1,5 +1,10 @@
 {
+  "_schema": "default",
   "slug": "bakeries",
+  "nav_title": {
+    "en": "Bakeries",
+    "de": "Bäckereien"
+  },
   "title": {
     "en": "A good day starts with bread.",
     "de": "Ein guter Tag beginnt mit Brot."
@@ -462,10 +467,25 @@
         }
       ],
       "placeholder": false
+    },
+    {
+      "_component": "guide/place",
+      "id": "new-place",
+      "name": "Till und Brot",
+      "quarter": {
+        "en": "",
+        "de": ""
+      },
+      "specialty": {
+        "en": "",
+        "de": ""
+      },
+      "tags": [],
+      "ratings": [],
+      "website": "",
+      "maps": "",
+      "gallery": [],
+      "placeholder": false
     }
-  ],
-  "nav_title": {
-    "en": "Bakeries",
-    "de": "Bäckereien"
-  }
+  ]
 }
