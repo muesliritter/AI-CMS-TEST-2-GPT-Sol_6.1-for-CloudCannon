@@ -222,18 +222,6 @@
       "maps": "https://www.google.com/maps/search/?api=1&query=Foerster+Max+Dreikoenigstrasse+46+Freiburg",
       "gallery": [
         {
-          "image": "/images/places/foerster-max-2.webp",
-          "alt": {
-            "en": "Förster Max on the street corner",
-            "de": "Förster Max an der Straßenecke"
-          },
-          "kind": "exterior",
-          "source_url": "https://www.foerstermax.de/",
-          "credit": "Förster Max · www.foerstermax.de",
-          "rights_status": "unverified",
-          "publish": true
-        },
-        {
           "image": "/images/places/foerster-max-1.webp",
           "alt": {
             "en": "Pastry at Förster Max",
@@ -256,6 +244,30 @@
           "credit": "Zimtblume",
           "rights_status": "unverified",
           "publish": true
+        },
+        {
+          "image": "/images/places/foerster-max-2.webp",
+          "alt": {
+            "en": "Förster Max on the street corner",
+            "de": "Förster Max an der Straßenecke"
+          },
+          "kind": "exterior",
+          "source_url": "https://www.foerstermax.de/",
+          "credit": "Förster Max · www.foerstermax.de",
+          "rights_status": "unverified",
+          "publish": true
+        },
+        {
+          "image": "",
+          "alt": {
+            "en": "",
+            "de": ""
+          },
+          "kind": "other",
+          "source_url": "",
+          "credit": "",
+          "rights_status": "unverified",
+          "publish": true
         }
       ],
       "placeholder": false
@@ -263,7 +275,7 @@
     {
       "_component": "guide/place",
       "id": "scheinpflug",
-      "name": "Der Scheinpflug",
+      "name": "Der Scheinpflug ist Tool",
       "quarter": {
         "en": "Wiehre",
         "de": "Wiehre"
@@ -354,106 +366,6 @@
           "kind": "other",
           "source_url": "",
           "credit": "",
-          "rights_status": "unverified",
-          "publish": true
-        }
-      ],
-      "placeholder": false
-    },
-    {
-      "_component": "guide/place",
-      "id": "tibet-garten",
-      "name": "Tibet Garten Café",
-      "quarter": {
-        "en": "Old Town",
-        "de": "Altstadt"
-      },
-      "specialty": {
-        "en": "The garden",
-        "de": "Der Garten"
-      },
-      "tags": [
-        "garden",
-        "cake"
-      ],
-      "ratings": [
-        {
-          "criterion": "coffee",
-          "score": 4,
-          "text": {
-            "en": "",
-            "de": ""
-          }
-        },
-        {
-          "criterion": "food",
-          "score": null,
-          "text": {
-            "en": "Pretty good cakes",
-            "de": "Ziemlich gute Kuchen"
-          }
-        },
-        {
-          "criterion": "style",
-          "score": null,
-          "text": {
-            "en": "Buddhist",
-            "de": "Buddhistisch"
-          }
-        },
-        {
-          "criterion": "inside",
-          "score": null,
-          "text": {
-            "en": "Meditation only inside — no coffee",
-            "de": "Drinnen nur Meditation, kein Kaffee"
-          }
-        },
-        {
-          "criterion": "outside",
-          "score": null,
-          "text": {
-            "en": "A beautiful garden",
-            "de": "Ein wunderschöner Garten"
-          }
-        }
-      ],
-      "website": "https://www.tibet-kailash-haus.de/",
-      "maps": "https://www.google.com/maps/search/?api=1&query=Tibet+Kailash+Gartencafe+Wallstrasse+8+Freiburg",
-      "gallery": [
-        {
-          "image": "/images/places/tibet-garten-1.webp",
-          "alt": {
-            "en": "Prayer wheel in the Tibet Kailash garden",
-            "de": "Gebetsmühle im Garten des Tibet-Kailash-Hauses"
-          },
-          "kind": "garden",
-          "source_url": "https://www.tibet-kailash-haus.de/angebot",
-          "credit": "Tibet Garten Café · www.tibet-kailash-haus.de",
-          "rights_status": "unverified",
-          "publish": true
-        },
-        {
-          "image": "/images/places/tibet-garten-2.webp",
-          "alt": {
-            "en": "Buddha detail in the garden",
-            "de": "Buddha-Detail im Garten"
-          },
-          "kind": "garden",
-          "source_url": "https://www.tibet-kailash-haus.de/angebot",
-          "credit": "Tibet Garten Café · www.tibet-kailash-haus.de",
-          "rights_status": "unverified",
-          "publish": true
-        },
-        {
-          "image": "/images/places/tibet-garten-3.webp",
-          "alt": {
-            "en": "Buddha among the greenery",
-            "de": "Buddha im Grünen"
-          },
-          "kind": "garden",
-          "source_url": "https://www.tibet-kailash-haus.de/angebot",
-          "credit": "Tibet Garten Café · www.tibet-kailash-haus.de",
           "rights_status": "unverified",
           "publish": true
         }
@@ -654,6 +566,106 @@
           "kind": "interior",
           "source_url": "https://www.la-terrazza-freiburg.com/",
           "credit": "Café la Terrazza · www.la-terrazza-freiburg.com",
+          "rights_status": "unverified",
+          "publish": true
+        }
+      ],
+      "placeholder": false
+    },
+    {
+      "_component": "guide/place",
+      "id": "tibet-garten",
+      "name": "Tibet Garten Café",
+      "quarter": {
+        "en": "Old Town",
+        "de": "Altstadt"
+      },
+      "specialty": {
+        "en": "The garden",
+        "de": "Der Garten"
+      },
+      "tags": [
+        "garden",
+        "cake"
+      ],
+      "ratings": [
+        {
+          "criterion": "coffee",
+          "score": 4,
+          "text": {
+            "en": "",
+            "de": ""
+          }
+        },
+        {
+          "criterion": "food",
+          "score": null,
+          "text": {
+            "en": "Pretty good cakes",
+            "de": "Ziemlich gute Kuchen"
+          }
+        },
+        {
+          "criterion": "style",
+          "score": null,
+          "text": {
+            "en": "Buddhist",
+            "de": "Buddhistisch"
+          }
+        },
+        {
+          "criterion": "inside",
+          "score": null,
+          "text": {
+            "en": "Meditation only inside — no coffee",
+            "de": "Drinnen nur Meditation, kein Kaffee"
+          }
+        },
+        {
+          "criterion": "outside",
+          "score": null,
+          "text": {
+            "en": "A beautiful garden",
+            "de": "Ein wunderschöner Garten"
+          }
+        }
+      ],
+      "website": "https://www.tibet-kailash-haus.de/",
+      "maps": "https://www.google.com/maps/search/?api=1&query=Tibet+Kailash+Gartencafe+Wallstrasse+8+Freiburg",
+      "gallery": [
+        {
+          "image": "/images/places/tibet-garten-1.webp",
+          "alt": {
+            "en": "Prayer wheel in the Tibet Kailash garden",
+            "de": "Gebetsmühle im Garten des Tibet-Kailash-Hauses"
+          },
+          "kind": "garden",
+          "source_url": "https://www.tibet-kailash-haus.de/angebot",
+          "credit": "Tibet Garten Café · www.tibet-kailash-haus.de",
+          "rights_status": "unverified",
+          "publish": true
+        },
+        {
+          "image": "/images/places/tibet-garten-2.webp",
+          "alt": {
+            "en": "Buddha detail in the garden",
+            "de": "Buddha-Detail im Garten"
+          },
+          "kind": "garden",
+          "source_url": "https://www.tibet-kailash-haus.de/angebot",
+          "credit": "Tibet Garten Café · www.tibet-kailash-haus.de",
+          "rights_status": "unverified",
+          "publish": true
+        },
+        {
+          "image": "/images/places/tibet-garten-3.webp",
+          "alt": {
+            "en": "Buddha among the greenery",
+            "de": "Buddha im Grünen"
+          },
+          "kind": "garden",
+          "source_url": "https://www.tibet-kailash-haus.de/angebot",
+          "credit": "Tibet Garten Café · www.tibet-kailash-haus.de",
           "rights_status": "unverified",
           "publish": true
         }
